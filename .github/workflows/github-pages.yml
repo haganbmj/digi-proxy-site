@@ -1,0 +1,38 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 13 * * 6"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3.1.1
+        with:
+          node-version: "15.x"
+
+      - name: Cache dependencies
+        uses: actions/cache@v3.0.2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - run: echo "VUE_APP_BUILD_SHA=$GITHUB_SHA" >> $GITHUB_ENV
+      - run: npm ci
+      - run: npm run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          cname: digimon.griselbrand.com
