@@ -560,6 +560,12 @@
         "f": "https://images.digimoncard.io/images/cards/ST6-12.jpg"
       }
     ],
+    "vemmon": [
+      {
+        "s": "BT11-061",
+        "f": "https://images.digimoncard.io/images/cards/BT11-061.jpg"
+      }
+    ],
     "vegiemon": [
       {
         "s": "BT1-071",
@@ -962,6 +968,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT1-080.jpg"
       },
       {
+        "s": "BT11-057",
+        "f": "https://images.digimoncard.io/images/cards/BT11-057.jpg"
+      },
+      {
         "s": "BT6-081",
         "f": "https://images.digimoncard.io/images/cards/BT6-081.jpg"
       }
@@ -1162,6 +1172,12 @@
       {
         "s": "EX2-056",
         "f": "https://images.digimoncard.io/images/cards/EX2-056.jpg"
+      }
+    ],
+    "taiki & kiriha & nene": [
+      {
+        "s": "BT11-095",
+        "f": "https://images.digimoncard.io/images/cards/BT11-095.jpg"
       }
     ],
     "taiga": [
@@ -1558,6 +1574,12 @@
         "f": "https://images.digimoncard.io/images/cards/ST9-10.jpg"
       }
     ],
+    "snatchmon": [
+      {
+        "s": "BT11-065",
+        "f": "https://images.digimoncard.io/images/cards/BT11-065.jpg"
+      }
+    ],
     "smashed potatoes": [
       {
         "s": "BT1-109",
@@ -1748,6 +1770,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT10-009.jpg"
       }
     ],
+    "shoutmon x3": [
+      {
+        "s": "BT11-012",
+        "f": "https://images.digimoncard.io/images/cards/BT11-012.jpg"
+      }
+    ],
     "shoutmon dx": [
       {
         "s": "BT11-018",
@@ -1756,6 +1784,12 @@
       {
         "s": "BT5-019",
         "f": "https://images.digimoncard.io/images/cards/BT5-019.jpg"
+      }
+    ],
+    "shoutmon + star sword": [
+      {
+        "s": "BT11-009",
+        "f": "https://images.digimoncard.io/images/cards/BT11-009.jpg"
       }
     ],
     "shoutmon (king version)": [
@@ -2972,6 +3006,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT1-069.jpg"
       },
       {
+        "s": "BT11-051",
+        "f": "https://images.digimoncard.io/images/cards/BT11-051.jpg"
+      },
+      {
         "s": "BT6-072",
         "f": "https://images.digimoncard.io/images/cards/BT6-072.jpg"
       },
@@ -3859,6 +3897,10 @@
       }
     ],
     "mamemon": [
+      {
+        "s": "BT11-068",
+        "f": "https://images.digimoncard.io/images/cards/BT11-068.jpg"
+      },
       {
         "s": "BT6-064",
         "f": "https://images.digimoncard.io/images/cards/BT6-064.jpg"
@@ -6142,6 +6184,12 @@
         "f": "https://images.digimoncard.io/images/cards/ST7-09.jpg"
       }
     ],
+    "galactimon": [
+      {
+        "s": "BT11-111",
+        "f": "https://images.digimoncard.io/images/cards/BT11-111.jpg"
+      }
+    ],
     "gaiomon": [
       {
         "s": "BT9-068",
@@ -6216,6 +6264,12 @@
       {
         "s": "ST8-02",
         "f": "https://images.digimoncard.io/images/cards/ST8-02.jpg"
+      }
+    ],
+    "fusionize": [
+      {
+        "s": "BT11-105",
+        "f": "https://images.digimoncard.io/images/cards/BT11-105.jpg"
       }
     ],
     "full moon blaster": [
@@ -6888,6 +6942,10 @@
       {
         "s": "BT1-075",
         "f": "https://images.digimoncard.io/images/cards/BT1-075.jpg"
+      },
+      {
+        "s": "BT11-053",
+        "f": "https://images.digimoncard.io/images/cards/BT11-053.jpg"
       }
     ],
     "digimon emperor": [
@@ -6978,6 +7036,12 @@
       {
         "s": "EX2-040",
         "f": "https://images.digimoncard.io/images/cards/EX2-040.jpg"
+      }
+    ],
+    "destromon": [
+      {
+        "s": "BT11-070",
+        "f": "https://images.digimoncard.io/images/cards/BT11-070.jpg"
       }
     ],
     "deramon": [
