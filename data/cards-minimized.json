@@ -256,6 +256,10 @@
       {
         "s": "ST10-09",
         "f": "https://images.digimoncard.io/images/cards/ST10-09.jpg"
+      },
+      {
+        "s": "ST14-06",
+        "f": "https://images.digimoncard.io/images/cards/ST14-06.jpg"
       }
     ],
     "wisselen": [
@@ -8204,6 +8208,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT7-046.jpg"
       }
     ],
+    "beelzemon: blast mode": [
+      {
+        "s": "ST14-10",
+        "f": "https://images.digimoncard.io/images/cards/ST14-10.jpg"
+      }
+    ],
     "beelzemon blast mode": [
       {
         "s": "EX2-074",
@@ -8834,6 +8844,10 @@
       {
         "s": "EX2-065",
         "f": "https://images.digimoncard.io/images/cards/EX2-065.jpg"
+      },
+      {
+        "s": "ST14-11",
+        "f": "https://images.digimoncard.io/images/cards/ST14-11.jpg"
       }
     ],
     "agunimon": [
