@@ -2692,6 +2692,12 @@
         "f": "https://images.digimoncard.io/images/cards/ST1-10.jpg"
       }
     ],
+    "phascomon": [
+      {
+        "s": "ST14-04",
+        "f": "https://images.digimoncard.io/images/cards/ST14-04.jpg"
+      }
+    ],
     "phantomon": [
       {
         "s": "BT4-085",
@@ -7750,6 +7756,10 @@
       {
         "s": "ST12-02",
         "f": "https://images.digimoncard.io/images/cards/ST12-02.jpg"
+      },
+      {
+        "s": "ST14-03",
+        "f": "https://images.digimoncard.io/images/cards/ST14-03.jpg"
       }
     ],
     "calumon": [
