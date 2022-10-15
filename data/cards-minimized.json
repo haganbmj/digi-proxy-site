@@ -4690,6 +4690,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT7-022.jpg"
       }
     ],
+    "ken'en no kyoudan": [
+      {
+        "s": "ST14-12",
+        "f": "https://images.digimoncard.io/images/cards/ST14-12.jpg"
+      }
+    ],
     "ken ichijoji": [
       {
         "s": "BT3-094",
@@ -8252,6 +8258,10 @@
       {
         "s": "BT6-112",
         "f": "https://images.digimoncard.io/images/cards/BT6-112.jpg"
+      },
+      {
+        "s": "ST14-09",
+        "f": "https://images.digimoncard.io/images/cards/ST14-09.jpg"
       }
     ],
     "bebydomon": [
