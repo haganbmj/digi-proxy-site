@@ -1912,6 +1912,10 @@
         "f": "https://images.digimoncard.io/images/cards/P-088.jpg"
       },
       {
+        "s": "RB1-010",
+        "f": "https://images.digimoncard.io/images/cards/RB1-010.jpg"
+      },
+      {
         "s": "RB1-10",
         "f": "https://images.digimoncard.io/images/cards/RB1-10.jpg"
       }
@@ -5766,6 +5770,10 @@
       {
         "s": "P-062",
         "f": "https://images.digimoncard.io/images/cards/P-062.jpg"
+      },
+      {
+        "s": "RB1-032",
+        "f": "https://images.digimoncard.io/images/cards/RB1-032.jpg"
       }
     ],
     "hippogryphonmon": [
@@ -5986,6 +5994,10 @@
       {
         "s": "BT8-001",
         "f": "https://images.digimoncard.io/images/cards/BT8-001.jpg"
+      },
+      {
+        "s": "RB1-001",
+        "f": "https://images.digimoncard.io/images/cards/RB1-001.jpg"
       },
       {
         "s": "ST12-01",
@@ -6210,6 +6222,10 @@
       {
         "s": "P-010",
         "f": "https://images.digimoncard.io/images/cards/P-010.jpg"
+      },
+      {
+        "s": "RB1-007",
+        "f": "https://images.digimoncard.io/images/cards/RB1-007.jpg"
       },
       {
         "s": "ST1-07",
@@ -6826,6 +6842,14 @@
       {
         "s": "P-065",
         "f": "https://images.digimoncard.io/images/cards/P-065.jpg"
+      },
+      {
+        "s": "RB1-005",
+        "f": "https://images.digimoncard.io/images/cards/RB1-005.jpg"
+      },
+      {
+        "s": "RB1-006",
+        "f": "https://images.digimoncard.io/images/cards/RB1-006.jpg"
       }
     ],
     "gallantmon crimson mode": [
@@ -8564,6 +8588,10 @@
       {
         "s": "BT10-011",
         "f": "https://images.digimoncard.io/images/cards/BT10-011.jpg"
+      },
+      {
+        "s": "RB1-009",
+        "f": "https://images.digimoncard.io/images/cards/RB1-009.jpg"
       }
     ],
     "cannondramon": [
@@ -9064,6 +9092,10 @@
       {
         "s": "BT8-013",
         "f": "https://images.digimoncard.io/images/cards/BT8-013.jpg"
+      },
+      {
+        "s": "RB1-008",
+        "f": "https://images.digimoncard.io/images/cards/RB1-008.jpg"
       }
     ],
     "betamon": [
@@ -9920,6 +9952,10 @@
       {
         "s": "P-079",
         "f": "https://images.digimoncard.io/images/cards/P-079.jpg"
+      },
+      {
+        "s": "RB1-004",
+        "f": "https://images.digimoncard.io/images/cards/RB1-004.jpg"
       },
       {
         "s": "ST1-03",
