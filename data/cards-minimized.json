@@ -346,6 +346,10 @@
       {
         "s": "BT10-050",
         "f": "https://images.digimoncard.io/images/cards/BT10-050.jpg"
+      },
+      {
+        "s": "RB1-021",
+        "f": "https://images.digimoncard.io/images/cards/RB1-021.jpg"
       }
     ],
     "weregarurumon: sagittarius mode": [
@@ -5226,6 +5230,10 @@
       {
         "s": "BT9-023",
         "f": "https://images.digimoncard.io/images/cards/BT9-023.jpg"
+      },
+      {
+        "s": "RB1-012",
+        "f": "https://images.digimoncard.io/images/cards/RB1-012.jpg"
       }
     ],
     "kari kamiya": [
@@ -5722,6 +5730,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT1-101.jpg"
       }
     ],
+    "hoverespimon": [
+      {
+        "s": "RB1-027",
+        "f": "https://images.digimoncard.io/images/cards/RB1-027.jpg"
+      }
+    ],
     "horn buster": [
       {
         "s": "BT1-108",
@@ -5762,6 +5776,12 @@
       {
         "s": "ST3-15",
         "f": "https://images.digimoncard.io/images/cards/ST3-15.jpg"
+      }
+    ],
+    "hokuto amanokawa": [
+      {
+        "s": "RB1-035",
+        "f": "https://images.digimoncard.io/images/cards/RB1-035.jpg"
       }
     ],
     "hiyarimon": [
@@ -6592,6 +6612,12 @@
         "f": "https://images.digimoncard.io/images/cards/ST10-07.jpg"
       }
     ],
+    "ghilliedhumon": [
+      {
+        "s": "RB1-023",
+        "f": "https://images.digimoncard.io/images/cards/RB1-023.jpg"
+      }
+    ],
     "gewalt schwarmer": [
       {
         "s": "BT6-105",
@@ -6996,6 +7022,12 @@
       {
         "s": "BT11-105",
         "f": "https://images.digimoncard.io/images/cards/BT11-105.jpg"
+      }
+    ],
+    "fumamon": [
+      {
+        "s": "RB1-015",
+        "f": "https://images.digimoncard.io/images/cards/RB1-015.jpg"
       }
     ],
     "full moon blaster": [
@@ -8994,6 +9026,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX4-008.jpg"
       }
     ],
+    "blackgatomon uver.": [
+      {
+        "s": "RB1-028",
+        "f": "https://images.digimoncard.io/images/cards/RB1-028.jpg"
+      }
+    ],
     "blackgatomon": [
       {
         "s": "BT3-082",
@@ -10134,12 +10172,12 @@
     "ST9": "ST-9: Starter Deck Ultimate Ancient Dragon",
     "ST10": "ST-10: Starter Deck Parallel World Tactician",
     "ST8": "ST-8: Starter Deck UlforceVeedramon",
+    "RB1": "RB-01: Reboot Booster Rising Wind",
     "ST7": "ST-7: Starter Deck Gallantmon",
     "ST1": "ST-1: Starter Deck Gaia Red",
     "ST12": "ST-12: Starter Deck Jesmon",
     "ST3": "Premium Bandai Apparel Promo Cards",
     "ST5": "ST-5: Starter Deck Machine Black",
-    "ST4": "ST-4: Starter Deck Giga Green",
-    "RB1": "RB-01: Reboot Booster Rising Wind"
+    "ST4": "ST-4: Starter Deck Giga Green"
   }
 }
