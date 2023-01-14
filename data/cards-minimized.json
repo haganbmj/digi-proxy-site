@@ -1146,6 +1146,10 @@
       {
         "s": "BT10-023",
         "f": "https://images.digimoncard.io/images/cards/BT10-023.jpg"
+      },
+      {
+        "s": "RB1-014",
+        "f": "https://images.digimoncard.io/images/cards/RB1-014.jpg"
       }
     ],
     "the ray of victory": [
@@ -1170,6 +1174,10 @@
       {
         "s": "BT9-025",
         "f": "https://images.digimoncard.io/images/cards/BT9-025.jpg"
+      },
+      {
+        "s": "RB1-013",
+        "f": "https://images.digimoncard.io/images/cards/RB1-013.jpg"
       }
     ],
     "terrors cluster": [
@@ -1460,6 +1468,10 @@
       {
         "s": "BT10-051",
         "f": "https://images.digimoncard.io/images/cards/BT10-051.jpg"
+      },
+      {
+        "s": "RB1-022",
+        "f": "https://images.digimoncard.io/images/cards/RB1-022.jpg"
       }
     ],
     "syakomon": [
@@ -2400,6 +2412,12 @@
         "f": "https://images.digimoncard.io/images/cards/P-063.jpg"
       }
     ],
+    "ruli tsukiyono": [
+      {
+        "s": "RB1-034",
+        "f": "https://images.digimoncard.io/images/cards/RB1-034.jpg"
+      }
+    ],
     "royal nuts": [
       {
         "s": "BT5-100",
@@ -2552,6 +2570,12 @@
       {
         "s": "BT6-100",
         "f": "https://images.digimoncard.io/images/cards/BT6-100.jpg"
+      }
+    ],
+    "regulusmon": [
+      {
+        "s": "RB1-030",
+        "f": "https://images.digimoncard.io/images/cards/RB1-030.jpg"
       }
     ],
     "regalecusmon": [
@@ -2752,6 +2776,10 @@
       {
         "s": "BT9-002",
         "f": "https://images.digimoncard.io/images/cards/BT9-002.jpg"
+      },
+      {
+        "s": "RB1-002",
+        "f": "https://images.digimoncard.io/images/cards/RB1-002.jpg"
       }
     ],
     "pusurimon": [
@@ -2834,6 +2862,12 @@
       {
         "s": "BT8-071",
         "f": "https://images.digimoncard.io/images/cards/BT8-071.jpg"
+      }
+    ],
+    "proximamon": [
+      {
+        "s": "RB1-036",
+        "f": "https://images.digimoncard.io/images/cards/RB1-036.jpg"
       }
     ],
     "pride memory boost!": [
@@ -4796,6 +4830,10 @@
       {
         "s": "BT10-054",
         "f": "https://images.digimoncard.io/images/cards/BT10-054.jpg"
+      },
+      {
+        "s": "RB1-024",
+        "f": "https://images.digimoncard.io/images/cards/RB1-024.jpg"
       }
     ],
     "lalamon": [
@@ -5108,6 +5146,10 @@
       {
         "s": "P-064",
         "f": "https://images.digimoncard.io/images/cards/P-064.jpg"
+      },
+      {
+        "s": "RB1-033",
+        "f": "https://images.digimoncard.io/images/cards/RB1-033.jpg"
       }
     ],
     "kiwimon": [
@@ -5432,6 +5474,10 @@
       {
         "s": "P-061",
         "f": "https://images.digimoncard.io/images/cards/P-061.jpg"
+      },
+      {
+        "s": "RB1-011",
+        "f": "https://images.digimoncard.io/images/cards/RB1-011.jpg"
       }
     ],
     "jazarichmon": [
@@ -6060,6 +6106,10 @@
       {
         "s": "BT10-078",
         "f": "https://images.digimoncard.io/images/cards/BT10-078.jpg"
+      },
+      {
+        "s": "RB1-029",
+        "f": "https://images.digimoncard.io/images/cards/RB1-029.jpg"
       }
     ],
     "gulfmon": [
@@ -7808,6 +7858,12 @@
         "f": "https://images.digimoncard.io/images/cards/P-090.jpg"
       }
     ],
+    "diarbbitmon": [
+      {
+        "s": "RB1-025",
+        "f": "https://images.digimoncard.io/images/cards/RB1-025.jpg"
+      }
+    ],
     "diaboromon": [
       {
         "s": "BT2-082",
@@ -8838,6 +8894,10 @@
       {
         "s": "BT10-004",
         "f": "https://images.digimoncard.io/images/cards/BT10-004.jpg"
+      },
+      {
+        "s": "RB1-003",
+        "f": "https://images.digimoncard.io/images/cards/RB1-003.jpg"
       }
     ],
     "boring storm": [
@@ -9568,6 +9628,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT5-058.jpg"
       }
     ],
+    "arcturusmon": [
+      {
+        "s": "RB1-031",
+        "f": "https://images.digimoncard.io/images/cards/RB1-031.jpg"
+      }
+    ],
     "arctic blizzard": [
       {
         "s": "BT2-094",
@@ -9654,6 +9720,10 @@
       {
         "s": "P-060",
         "f": "https://images.digimoncard.io/images/cards/P-060.jpg"
+      },
+      {
+        "s": "RB1-020",
+        "f": "https://images.digimoncard.io/images/cards/RB1-020.jpg"
       }
     ],
     "angewomon (x antibody)": [
@@ -9808,6 +9878,10 @@
       {
         "s": "P-089",
         "f": "https://images.digimoncard.io/images/cards/P-089.jpg"
+      },
+      {
+        "s": "RB1-016",
+        "f": "https://images.digimoncard.io/images/cards/RB1-016.jpg"
       }
     ],
     "alphamon: ouryuken": [
@@ -10148,7 +10222,7 @@
     ]
   },
   "sets": {
-    "BT1": "BT-01: Booster New Evolution",
+    "BT1": "25th Memorial Pack",
     "BT2": "BT-02: Booster Ultimate Power",
     "EX1": "Classic Collection EX-01",
     "ST2": "ST-2: Starter Deck Cocytus Blue",
@@ -10159,10 +10233,10 @@
     "BT10": "BT-10: Booster Xros Encounter",
     "BT12": "BT-12: Booster Across Time",
     "BT11": "BT-11: Booster Dimensional Phase",
-    "BT5": "BT-05: Booster Battle Of Omni",
+    "BT5": "Battle of Omni Pre-Release Pack",
     "BT4": "BT-04: Booster Great Legend",
     "EX4": "EX-04: Theme Booster Alternative Being",
-    "BT9": "X Record Pre-Release Pack",
+    "BT9": "BT-09: Booster X Record",
     "ST6": "ST-6: Starter Deck Venomous Violet",
     "P": "Special Release Memorial Pack",
     "EX2": "EX-02: Theme Booster Digital Hazard",
@@ -10170,14 +10244,14 @@
     "BT6": "BT-06: Booster Double Diamond",
     "EX3": "EX-03: Theme Booster Draconic Roar",
     "ST9": "ST-9: Starter Deck Ultimate Ancient Dragon",
-    "ST10": "ST-10: Starter Deck Parallel World Tactician",
+    "ST10": "ST-10: Starter Deck Another World Tactician",
     "ST8": "ST-8: Starter Deck UlforceVeedramon",
     "RB1": "RB-01: Reboot Booster Rising Wind",
-    "ST7": "ST-7: Starter Deck Gallantmon",
-    "ST1": "ST-1: Starter Deck Gaia Red",
+    "ST7": "Official Tournament Pack Vol. 8",
+    "ST1": "Digimon Illustration Competition Promotion Pack",
     "ST12": "ST-12: Starter Deck Jesmon",
-    "ST3": "Premium Bandai Apparel Promo Cards",
-    "ST5": "ST-5: Starter Deck Machine Black",
+    "ST3": "1st Anniversary Adventure Pack",
+    "ST5": "1st Anniversary Adventure Pack",
     "ST4": "ST-4: Starter Deck Giga Green"
   }
 }
