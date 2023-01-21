@@ -170,6 +170,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT5-004.jpg"
       }
     ],
+    "yggdrasill_7d6": [
+      {
+        "s": "BT13-007",
+        "f": "https://images.digimoncard.io/images/cards/BT13-007.jpg"
+      }
+    ],
     "yellow memory boost!": [
       {
         "s": "P-037",
@@ -2256,6 +2262,10 @@
     ],
     "saviorhuckmon": [
       {
+        "s": "BT13-016",
+        "f": "https://images.digimoncard.io/images/cards/BT13-016.jpg"
+      },
+      {
         "s": "BT6-015",
         "f": "https://images.digimoncard.io/images/cards/BT6-015.jpg"
       },
@@ -2474,6 +2484,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT12-043.jpg"
       },
       {
+        "s": "BT13-015",
+        "f": "https://images.digimoncard.io/images/cards/BT13-015.jpg"
+      },
+      {
         "s": "BT2-038",
         "f": "https://images.digimoncard.io/images/cards/BT2-038.jpg"
       },
@@ -2516,6 +2530,12 @@
       {
         "s": "EX2-060",
         "f": "https://images.digimoncard.io/images/cards/EX2-060.jpg"
+      }
+    ],
+    "richard sampson": [
+      {
+        "s": "BT13-098",
+        "f": "https://images.digimoncard.io/images/cards/BT13-098.jpg"
       }
     ],
     "rhinokabuterimon": [
@@ -4376,6 +4396,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT12-092.jpg"
       },
       {
+        "s": "BT13-095",
+        "f": "https://images.digimoncard.io/images/cards/BT13-095.jpg"
+      },
+      {
         "s": "BT4-092",
         "f": "https://images.digimoncard.io/images/cards/BT4-092.jpg"
       }
@@ -5452,6 +5476,10 @@
     ],
     "jesmon": [
       {
+        "s": "BT13-017",
+        "f": "https://images.digimoncard.io/images/cards/BT13-017.jpg"
+      },
+      {
         "s": "BT6-016",
         "f": "https://images.digimoncard.io/images/cards/BT6-016.jpg"
       },
@@ -5748,6 +5776,10 @@
     ],
     "huckmon": [
       {
+        "s": "BT13-009",
+        "f": "https://images.digimoncard.io/images/cards/BT13-009.jpg"
+      },
+      {
         "s": "BT6-009",
         "f": "https://images.digimoncard.io/images/cards/BT6-009.jpg"
       },
@@ -5798,6 +5830,12 @@
       {
         "s": "BT8-025",
         "f": "https://images.digimoncard.io/images/cards/BT8-025.jpg"
+      }
+    ],
+    "homer yushima": [
+      {
+        "s": "BT13-096",
+        "f": "https://images.digimoncard.io/images/cards/BT13-096.jpg"
       }
     ],
     "home run blast": [
@@ -6902,6 +6940,10 @@
     ],
     "gankoomon": [
       {
+        "s": "BT13-019",
+        "f": "https://images.digimoncard.io/images/cards/BT13-019.jpg"
+      },
+      {
         "s": "BT6-067",
         "f": "https://images.digimoncard.io/images/cards/BT6-067.jpg"
       },
@@ -7452,6 +7494,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT10-109.jpg"
       }
     ],
+    "end waltz": [
+      {
+        "s": "BT13-108",
+        "f": "https://images.digimoncard.io/images/cards/BT13-108.jpg"
+      }
+    ],
     "emperorgreymon": [
       {
         "s": "BT12-017",
@@ -7663,6 +7711,10 @@
       }
     ],
     "dorugreymon": [
+      {
+        "s": "BT13-072",
+        "f": "https://images.digimoncard.io/images/cards/BT13-072.jpg"
+      },
       {
         "s": "BT7-064",
         "f": "https://images.digimoncard.io/images/cards/BT7-064.jpg"
@@ -8371,6 +8423,10 @@
       }
     ],
     "craniamon": [
+      {
+        "s": "BT13-077",
+        "f": "https://images.digimoncard.io/images/cards/BT13-077.jpg"
+      },
       {
         "s": "BT3-075",
         "f": "https://images.digimoncard.io/images/cards/BT3-075.jpg"
@@ -9342,6 +9398,10 @@
     ],
     "baohuckmon": [
       {
+        "s": "BT13-013",
+        "f": "https://images.digimoncard.io/images/cards/BT13-013.jpg"
+      },
+      {
         "s": "BT6-011",
         "f": "https://images.digimoncard.io/images/cards/BT6-011.jpg"
       },
@@ -9892,6 +9952,10 @@
     ],
     "alphamon": [
       {
+        "s": "BT13-075",
+        "f": "https://images.digimoncard.io/images/cards/BT13-075.jpg"
+      },
+      {
         "s": "BT6-111",
         "f": "https://images.digimoncard.io/images/cards/BT6-111.jpg"
       },
@@ -10026,6 +10090,10 @@
       {
         "s": "BT12-059",
         "f": "https://images.digimoncard.io/images/cards/BT12-059.jpg"
+      },
+      {
+        "s": "BT13-008",
+        "f": "https://images.digimoncard.io/images/cards/BT13-008.jpg"
       },
       {
         "s": "BT2-033",
@@ -10238,6 +10306,7 @@
     "EX4": "EX-04: Theme Booster Alternative Being",
     "BT9": "BT-09: Booster X Record",
     "ST6": "ST-6: Starter Deck Venomous Violet",
+    "BT13": "BT-13: Booster Versus Royal Knights",
     "P": "Special Release Memorial Pack",
     "EX2": "EX-02: Theme Booster Digital Hazard",
     "ST14": "ST-14: Advanced Deck Beelzemon",
