@@ -24,6 +24,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT3-008.jpg"
       },
       {
+        "s": "P-097",
+        "f": "https://images.digimoncard.io/images/cards/P-097.jpg"
+      },
+      {
         "s": "ST13-02",
         "f": "https://images.digimoncard.io/images/cards/ST13-02.jpg"
       }
@@ -322,6 +326,12 @@
       {
         "s": "BT12-080",
         "f": "https://images.digimoncard.io/images/cards/BT12-080.jpg"
+      }
+    ],
+    "wisdom training": [
+      {
+        "s": "P-108",
+        "f": "https://images.digimoncard.io/images/cards/P-108.jpg"
       }
     ],
     "wingdramon": [
@@ -1924,6 +1934,10 @@
       {
         "s": "EX1-062",
         "f": "https://images.digimoncard.io/images/cards/EX1-062.jpg"
+      },
+      {
+        "s": "P-102",
+        "f": "https://images.digimoncard.io/images/cards/P-102.jpg"
       }
     ],
     "skullbaluchimon": [
@@ -2296,6 +2310,10 @@
       {
         "s": "BT2-024",
         "f": "https://images.digimoncard.io/images/cards/BT2-024.jpg"
+      },
+      {
+        "s": "P-098",
+        "f": "https://images.digimoncard.io/images/cards/P-098.jpg"
       }
     ],
     "scrap claw": [
@@ -2768,6 +2786,10 @@
       {
         "s": "BT3-084",
         "f": "https://images.digimoncard.io/images/cards/BT3-084.jpg"
+      },
+      {
+        "s": "P-101",
+        "f": "https://images.digimoncard.io/images/cards/P-101.jpg"
       }
     ],
     "raptordramon": [
@@ -3196,6 +3218,12 @@
       {
         "s": "BT5-003",
         "f": "https://images.digimoncard.io/images/cards/BT5-003.jpg"
+      }
+    ],
+    "physical training": [
+      {
+        "s": "P-105",
+        "f": "https://images.digimoncard.io/images/cards/P-105.jpg"
       }
     ],
     "phoenixmon": [
@@ -3632,6 +3660,12 @@
       {
         "s": "EX2-066",
         "f": "https://images.digimoncard.io/images/cards/EX2-066.jpg"
+      }
+    ],
+    "offense training": [
+      {
+        "s": "P-103",
+        "f": "https://images.digimoncard.io/images/cards/P-103.jpg"
       }
     ],
     "odin's breath": [
@@ -4352,6 +4386,12 @@
       {
         "s": "EX2-042",
         "f": "https://images.digimoncard.io/images/cards/EX2-042.jpg"
+      }
+    ],
+    "mental training": [
+      {
+        "s": "P-104",
+        "f": "https://images.digimoncard.io/images/cards/P-104.jpg"
       }
     ],
     "menoa bellucci": [
@@ -5200,6 +5240,10 @@
       {
         "s": "EX1-037",
         "f": "https://images.digimoncard.io/images/cards/EX1-037.jpg"
+      },
+      {
+        "s": "P-100",
+        "f": "https://images.digimoncard.io/images/cards/P-100.jpg"
       },
       {
         "s": "ST4-07",
@@ -7826,6 +7870,10 @@
       {
         "s": "EX1-052",
         "f": "https://images.digimoncard.io/images/cards/EX1-052.jpg"
+      },
+      {
+        "s": "P-099",
+        "f": "https://images.digimoncard.io/images/cards/P-099.jpg"
       }
     ],
     "espimon": [
@@ -8482,6 +8530,12 @@
       {
         "s": "P-076",
         "f": "https://images.digimoncard.io/images/cards/P-076.jpg"
+      }
+    ],
+    "defense training": [
+      {
+        "s": "P-107",
+        "f": "https://images.digimoncard.io/images/cards/P-107.jpg"
       }
     ],
     "defense plug-in c": [
@@ -10628,6 +10682,12 @@
         "f": "https://images.digimoncard.io/images/cards/ST7-02.jpg"
       }
     ],
+    "agility training": [
+      {
+        "s": "P-106",
+        "f": "https://images.digimoncard.io/images/cards/P-106.jpg"
+      }
+    ],
     "aeroveedramon zero": [
       {
         "s": "P-047",
@@ -10755,6 +10815,7 @@
     "EX1": "Classic Collection EX-01",
     "ST2": "ST-2: Starter Deck Cocytus Blue",
     "BT3": "BT-03: Booster Union Impact",
+    "P": "Special Release Memorial Pack",
     "ST13": "ST-13: Starter Deck RagnaLoardmon",
     "BT7": "BT-07: Booster Next Adventure",
     "BT8": "BT-08: Booster New Awakening",
@@ -10767,7 +10828,6 @@
     "BT9": "BT-09: Booster X Record",
     "ST6": "ST-6: Starter Deck Venomous Violet",
     "BT13": "BT-13: Booster Versus Royal Knights",
-    "P": "Special Release Memorial Pack",
     "EX2": "EX-02: Theme Booster Digital Hazard",
     "ST14": "ST-14: Advanced Deck Beelzemon",
     "BT6": "BT-06: Booster Double Diamond",
