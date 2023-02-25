@@ -2460,6 +2460,10 @@
       {
         "s": "BT3-080",
         "f": "https://images.digimoncard.io/images/cards/BT3-080.jpg"
+      },
+      {
+        "s": "P-091",
+        "f": "https://images.digimoncard.io/images/cards/P-091.jpg"
       }
     ],
     "ryudamon": [
@@ -3018,6 +3022,12 @@
       {
         "s": "BT13-080",
         "f": "https://images.digimoncard.io/images/cards/BT13-080.jpg"
+      }
+    ],
+    "prism garrett": [
+      {
+        "s": "P-096",
+        "f": "https://images.digimoncard.io/images/cards/P-096.jpg"
       }
     ],
     "princemamemon": [
@@ -5934,6 +5944,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT6-106.jpg"
       }
     ],
+    "invalidation plug-in p": [
+      {
+        "s": "P-095",
+        "f": "https://images.digimoncard.io/images/cards/P-095.jpg"
+      }
+    ],
     "innocence blizzard": [
       {
         "s": "BT8-098",
@@ -8088,6 +8104,10 @@
         "f": "https://images.digimoncard.io/images/cards/EX3-037.jpg"
       },
       {
+        "s": "P-092",
+        "f": "https://images.digimoncard.io/images/cards/P-092.jpg"
+      },
+      {
         "s": "ST1-04",
         "f": "https://images.digimoncard.io/images/cards/ST1-04.jpg"
       },
@@ -8440,6 +8460,10 @@
       {
         "s": "BT11-070",
         "f": "https://images.digimoncard.io/images/cards/BT11-070.jpg"
+      },
+      {
+        "s": "P-094",
+        "f": "https://images.digimoncard.io/images/cards/P-094.jpg"
       }
     ],
     "deramon": [
@@ -9876,6 +9900,10 @@
       {
         "s": "BT3-028",
         "f": "https://images.digimoncard.io/images/cards/BT3-028.jpg"
+      },
+      {
+        "s": "P-093",
+        "f": "https://images.digimoncard.io/images/cards/P-093.jpg"
       },
       {
         "s": "ST10-11",
