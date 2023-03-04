@@ -6452,6 +6452,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX1-045.jpg"
       }
     ],
+    "hades force": [
+      {
+        "s": "BT11-107",
+        "f": "https://images.digimoncard.io/images/cards/BT11-107.jpg"
+      }
+    ],
     "gypt particle cannon": [
       {
         "s": "BT12-106",
@@ -8866,10 +8872,6 @@
       {
         "s": "BT11-097",
         "f": "https://images.digimoncard.io/images/cards/BT11-097.jpg"
-      },
-      {
-        "s": "BT11-107",
-        "f": "https://images.digimoncard.io/images/cards/BT11-107.jpg"
       }
     ],
     "crimson blaze": [
