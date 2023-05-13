@@ -2180,6 +2180,10 @@
       {
         "s": "BT12-026",
         "f": "https://images.digimoncard.io/images/cards/BT12-026.jpg"
+      },
+      {
+        "s": "BT14-028",
+        "f": "https://images.digimoncard.io/images/cards/BT14-028.jpg"
       }
     ],
     "shivamon": [
@@ -3566,6 +3570,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT12-019.jpg"
       },
       {
+        "s": "BT14-019",
+        "f": "https://images.digimoncard.io/images/cards/BT14-019.jpg"
+      },
+      {
         "s": "BT4-007",
         "f": "https://images.digimoncard.io/images/cards/BT4-007.jpg"
       }
@@ -4600,16 +4608,16 @@
         "f": "https://images.digimoncard.io/images/cards/ST5-11.jpg"
       }
     ],
+    "megadeath": [
+      {
+        "s": "ST9-14",
+        "f": "https://images.digimoncard.io/images/cards/ST9-14.jpg"
+      }
+    ],
     "mega digimon fusion!": [
       {
         "s": "BT5-109",
         "f": "https://images.digimoncard.io/images/cards/BT5-109.jpg"
-      }
-    ],
-    "mega death": [
-      {
-        "s": "ST9-14",
-        "f": "https://images.digimoncard.io/images/cards/ST9-14.jpg"
       }
     ],
     "medievalgallantmon": [
@@ -5366,6 +5374,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT1-070.jpg"
       },
       {
+        "s": "BT14-045",
+        "f": "https://images.digimoncard.io/images/cards/BT14-045.jpg"
+      },
+      {
         "s": "EX1-037",
         "f": "https://images.digimoncard.io/images/cards/EX1-037.jpg"
       },
@@ -5401,6 +5413,10 @@
       }
     ],
     "kunemon": [
+      {
+        "s": "BT14-042",
+        "f": "https://images.digimoncard.io/images/cards/BT14-042.jpg"
+      },
       {
         "s": "BT3-045",
         "f": "https://images.digimoncard.io/images/cards/BT3-045.jpg"
@@ -5574,6 +5590,12 @@
       {
         "s": "BT8-075",
         "f": "https://images.digimoncard.io/images/cards/BT8-075.jpg"
+      }
+    ],
+    "kodokugumon": [
+      {
+        "s": "BT14-043",
+        "f": "https://images.digimoncard.io/images/cards/BT14-043.jpg"
       }
     ],
     "knightmon": [
@@ -7296,6 +7318,10 @@
       {
         "s": "BT12-023",
         "f": "https://images.digimoncard.io/images/cards/BT12-023.jpg"
+      },
+      {
+        "s": "BT14-024",
+        "f": "https://images.digimoncard.io/images/cards/BT14-024.jpg"
       }
     ],
     "gazimon (x antibody)": [
@@ -8377,6 +8403,10 @@
       }
     ],
     "dokugumon": [
+      {
+        "s": "BT14-047",
+        "f": "https://images.digimoncard.io/images/cards/BT14-047.jpg"
+      },
       {
         "s": "BT3-051",
         "f": "https://images.digimoncard.io/images/cards/BT3-051.jpg"
