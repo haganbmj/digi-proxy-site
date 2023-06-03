@@ -1162,6 +1162,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT1-074.jpg"
       },
       {
+        "s": "BT14-046",
+        "f": "https://images.digimoncard.io/images/cards/BT14-046.jpg"
+      },
+      {
         "s": "EX1-036",
         "f": "https://images.digimoncard.io/images/cards/EX1-036.jpg"
       },
@@ -1558,6 +1562,10 @@
       {
         "s": "BT1-087",
         "f": "https://images.digimoncard.io/images/cards/BT1-087.jpg"
+      },
+      {
+        "s": "BT14-084",
+        "f": "https://images.digimoncard.io/images/cards/BT14-084.jpg"
       },
       {
         "s": "BT8-087",
@@ -1963,6 +1971,10 @@
       }
     ],
     "skullsatamon": [
+      {
+        "s": "BT14-077",
+        "f": "https://images.digimoncard.io/images/cards/BT14-077.jpg"
+      },
       {
         "s": "BT8-079",
         "f": "https://images.digimoncard.io/images/cards/BT8-079.jpg"
@@ -2568,6 +2580,10 @@
       {
         "s": "BT1-043",
         "f": "https://images.digimoncard.io/images/cards/BT1-043.jpg"
+      },
+      {
+        "s": "BT14-054",
+        "f": "https://images.digimoncard.io/images/cards/BT14-054.jpg"
       },
       {
         "s": "BT7-052",
@@ -3240,6 +3256,10 @@
     ],
     "plesiomon": [
       {
+        "s": "BT14-029",
+        "f": "https://images.digimoncard.io/images/cards/BT14-029.jpg"
+      },
+      {
         "s": "EX1-020",
         "f": "https://images.digimoncard.io/images/cards/EX1-020.jpg"
       },
@@ -3280,6 +3300,10 @@
       {
         "s": "BT1-059",
         "f": "https://images.digimoncard.io/images/cards/BT1-059.jpg"
+      },
+      {
+        "s": "BT14-050",
+        "f": "https://images.digimoncard.io/images/cards/BT14-050.jpg"
       },
       {
         "s": "BT5-054",
@@ -3532,6 +3556,10 @@
       {
         "s": "BT11-054",
         "f": "https://images.digimoncard.io/images/cards/BT11-054.jpg"
+      },
+      {
+        "s": "BT14-052",
+        "f": "https://images.digimoncard.io/images/cards/BT14-052.jpg"
       },
       {
         "s": "BT6-025",
@@ -3868,6 +3896,10 @@
     ],
     "numemon": [
       {
+        "s": "BT14-058",
+        "f": "https://images.digimoncard.io/images/cards/BT14-058.jpg"
+      },
+      {
         "s": "BT2-056",
         "f": "https://images.digimoncard.io/images/cards/BT2-056.jpg"
       },
@@ -4185,6 +4217,10 @@
       }
     ],
     "missimon": [
+      {
+        "s": "BT14-005",
+        "f": "https://images.digimoncard.io/images/cards/BT14-005.jpg"
+      },
       {
         "s": "BT4-005",
         "f": "https://images.digimoncard.io/images/cards/BT4-005.jpg"
@@ -5698,6 +5734,10 @@
       {
         "s": "BT1-014",
         "f": "https://images.digimoncard.io/images/cards/BT1-014.jpg"
+      },
+      {
+        "s": "BT14-010",
+        "f": "https://images.digimoncard.io/images/cards/BT14-010.jpg"
       }
     ],
     "kokabuterimon": [
@@ -6984,6 +7024,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT12-062.jpg"
       },
       {
+        "s": "BT14-012",
+        "f": "https://images.digimoncard.io/images/cards/BT14-012.jpg"
+      },
+      {
         "s": "BT2-057",
         "f": "https://images.digimoncard.io/images/cards/BT2-057.jpg"
       },
@@ -7406,6 +7450,12 @@
       {
         "s": "BT13-109",
         "f": "https://images.digimoncard.io/images/cards/BT13-109.jpg"
+      }
+    ],
+    "ghoulmon": [
+      {
+        "s": "BT14-080",
+        "f": "https://images.digimoncard.io/images/cards/BT14-080.jpg"
       }
     ],
     "ghostmon": [
@@ -8802,6 +8852,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT11-080.jpg"
       },
       {
+        "s": "BT14-075",
+        "f": "https://images.digimoncard.io/images/cards/BT14-075.jpg"
+      },
+      {
         "s": "BT2-074",
         "f": "https://images.digimoncard.io/images/cards/BT2-074.jpg"
       },
@@ -9008,6 +9062,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT7-109.jpg"
       }
     ],
+    "dcd bomb": [
+      {
+        "s": "BT14-098",
+        "f": "https://images.digimoncard.io/images/cards/BT14-098.jpg"
+      }
+    ],
     "davis motomiya & ken ichijoji": [
       {
         "s": "BT8-088",
@@ -9108,6 +9168,12 @@
       {
         "s": "EX3-054",
         "f": "https://images.digimoncard.io/images/cards/EX3-054.jpg"
+      }
+    ],
+    "dark wing's delusion": [
+      {
+        "s": "BT14-099",
+        "f": "https://images.digimoncard.io/images/cards/BT14-099.jpg"
       }
     ],
     "dark side attack": [
@@ -10016,6 +10082,12 @@
       {
         "s": "BT5-068",
         "f": "https://images.digimoncard.io/images/cards/BT5-068.jpg"
+      }
+    ],
+    "blackkingnumemon": [
+      {
+        "s": "BT14-063",
+        "f": "https://images.digimoncard.io/images/cards/BT14-063.jpg"
       }
     ],
     "blackgrowlmon": [
