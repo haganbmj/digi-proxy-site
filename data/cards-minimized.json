@@ -530,6 +530,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT12-070.jpg"
       },
       {
+        "s": "BT14-101",
+        "f": "https://images.digimoncard.io/images/cards/BT14-101.jpg"
+      },
+      {
         "s": "BT2-065",
         "f": "https://images.digimoncard.io/images/cards/BT2-065.jpg"
       },
@@ -833,6 +837,10 @@
       }
     ],
     "unimon": [
+      {
+        "s": "BT14-035",
+        "f": "https://images.digimoncard.io/images/cards/BT14-035.jpg"
+      },
       {
         "s": "ST3-07",
         "f": "https://images.digimoncard.io/images/cards/ST3-07.jpg"
@@ -2040,6 +2048,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT1-023.jpg"
       },
       {
+        "s": "BT14-076",
+        "f": "https://images.digimoncard.io/images/cards/BT14-076.jpg"
+      },
+      {
         "s": "BT6-078",
         "f": "https://images.digimoncard.io/images/cards/BT6-078.jpg"
       },
@@ -2378,6 +2390,10 @@
       {
         "s": "BT1-063",
         "f": "https://images.digimoncard.io/images/cards/BT1-063.jpg"
+      },
+      {
+        "s": "BT14-041",
+        "f": "https://images.digimoncard.io/images/cards/BT14-041.jpg"
       },
       {
         "s": "EX1-031",
@@ -3248,6 +3264,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT11-103.jpg"
       }
     ],
+    "poison ivy": [
+      {
+        "s": "BT14-095",
+        "f": "https://images.digimoncard.io/images/cards/BT14-095.jpg"
+      }
+    ],
     "plutomon": [
       {
         "s": "BT4-089",
@@ -3276,6 +3298,12 @@
       {
         "s": "BT13-065",
         "f": "https://images.digimoncard.io/images/cards/BT13-065.jpg"
+      }
+    ],
+    "platinumnumemon": [
+      {
+        "s": "BT14-066",
+        "f": "https://images.digimoncard.io/images/cards/BT14-066.jpg"
       }
     ],
     "plasma stake": [
@@ -4118,6 +4146,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT1-038.jpg"
       },
       {
+        "s": "BT14-039",
+        "f": "https://images.digimoncard.io/images/cards/BT14-039.jpg"
+      },
+      {
         "s": "RB1-018",
         "f": "https://images.digimoncard.io/images/cards/RB1-018.jpg"
       }
@@ -4848,11 +4880,19 @@
     ],
     "marinedevimon": [
       {
+        "s": "BT14-027",
+        "f": "https://images.digimoncard.io/images/cards/BT14-027.jpg"
+      },
+      {
         "s": "BT5-027",
         "f": "https://images.digimoncard.io/images/cards/BT5-027.jpg"
       }
     ],
     "marineangemon": [
+      {
+        "s": "BT14-030",
+        "f": "https://images.digimoncard.io/images/cards/BT14-030.jpg"
+      },
       {
         "s": "EX2-018",
         "f": "https://images.digimoncard.io/images/cards/EX2-018.jpg"
@@ -6116,6 +6156,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT11-056.jpg"
       },
       {
+        "s": "BT14-040",
+        "f": "https://images.digimoncard.io/images/cards/BT14-040.jpg"
+      },
+      {
         "s": "BT5-043",
         "f": "https://images.digimoncard.io/images/cards/BT5-043.jpg"
       }
@@ -6696,6 +6740,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX2-061.jpg"
       }
     ],
+    "helloogarmon": [
+      {
+        "s": "BT14-078",
+        "f": "https://images.digimoncard.io/images/cards/BT14-078.jpg"
+      }
+    ],
     "hell's gate": [
       {
         "s": "BT4-112",
@@ -6712,6 +6762,12 @@
       {
         "s": "BT4-099",
         "f": "https://images.digimoncard.io/images/cards/BT4-099.jpg"
+      }
+    ],
+    "heaven's knuckle": [
+      {
+        "s": "BT14-094",
+        "f": "https://images.digimoncard.io/images/cards/BT14-094.jpg"
       }
     ],
     "heaven's judgement": [
@@ -9658,6 +9714,10 @@
       {
         "s": "BT11-039",
         "f": "https://images.digimoncard.io/images/cards/BT11-039.jpg"
+      },
+      {
+        "s": "BT14-036",
+        "f": "https://images.digimoncard.io/images/cards/BT14-036.jpg"
       }
     ],
     "catchmamemon": [
@@ -10840,6 +10900,10 @@
       {
         "s": "BT11-038",
         "f": "https://images.digimoncard.io/images/cards/BT11-038.jpg"
+      },
+      {
+        "s": "BT14-102",
+        "f": "https://images.digimoncard.io/images/cards/BT14-102.jpg"
       },
       {
         "s": "BT3-023",
