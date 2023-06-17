@@ -1508,6 +1508,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT12-095.jpg"
       },
       {
+        "s": "BT14-082",
+        "f": "https://images.digimoncard.io/images/cards/BT14-082.jpg"
+      },
+      {
         "s": "BT2-089",
         "f": "https://images.digimoncard.io/images/cards/BT2-089.jpg"
       },
@@ -1910,6 +1914,12 @@
       {
         "s": "BT2-084",
         "f": "https://images.digimoncard.io/images/cards/BT2-084.jpg"
+      }
+    ],
+    "soloogarmon": [
+      {
+        "s": "BT14-079",
+        "f": "https://images.digimoncard.io/images/cards/BT14-079.jpg"
       }
     ],
     "solarmon": [
@@ -3852,6 +3862,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT1-077.jpg"
       },
       {
+        "s": "BT14-051",
+        "f": "https://images.digimoncard.io/images/cards/BT14-051.jpg"
+      },
+      {
         "s": "P-075",
         "f": "https://images.digimoncard.io/images/cards/P-075.jpg"
       },
@@ -4782,6 +4796,12 @@
       {
         "s": "ST9-14",
         "f": "https://images.digimoncard.io/images/cards/ST9-14.jpg"
+      }
+    ],
+    "mega flame": [
+      {
+        "s": "BT14-089",
+        "f": "https://images.digimoncard.io/images/cards/BT14-089.jpg"
       }
     ],
     "mega digimon fusion!": [
@@ -6678,6 +6698,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT10-063.jpg"
       }
     ],
+    "hi-commandramon": [
+      {
+        "s": "BT14-060",
+        "f": "https://images.digimoncard.io/images/cards/BT14-060.jpg"
+      }
+    ],
     "hexeblaumon": [
       {
         "s": "BT5-032",
@@ -7582,6 +7608,12 @@
         "f": "https://images.digimoncard.io/images/cards/ST7-06.jpg"
       }
     ],
+    "gennai": [
+      {
+        "s": "BT14-088",
+        "f": "https://images.digimoncard.io/images/cards/BT14-088.jpg"
+      }
+    ],
     "gekomon": [
       {
         "s": "BT12-023",
@@ -7602,6 +7634,10 @@
       {
         "s": "BT10-071",
         "f": "https://images.digimoncard.io/images/cards/BT10-071.jpg"
+      },
+      {
+        "s": "BT14-069",
+        "f": "https://images.digimoncard.io/images/cards/BT14-069.jpg"
       },
       {
         "s": "BT3-077",
@@ -8216,7 +8252,17 @@
         "f": "https://images.digimoncard.io/images/cards/BT6-076.jpg"
       }
     ],
+    "fenriloogamon": [
+      {
+        "s": "BT14-081",
+        "f": "https://images.digimoncard.io/images/cards/BT14-081.jpg"
+      }
+    ],
     "fangmon": [
+      {
+        "s": "BT14-072",
+        "f": "https://images.digimoncard.io/images/cards/BT14-072.jpg"
+      },
       {
         "s": "BT8-076",
         "f": "https://images.digimoncard.io/images/cards/BT8-076.jpg"
@@ -8324,6 +8370,10 @@
       {
         "s": "BT11-041",
         "f": "https://images.digimoncard.io/images/cards/BT11-041.jpg"
+      },
+      {
+        "s": "BT14-038",
+        "f": "https://images.digimoncard.io/images/cards/BT14-038.jpg"
       },
       {
         "s": "BT3-070",
@@ -9732,6 +9782,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT5-104.jpg"
       }
     ],
+    "cargodramon": [
+      {
+        "s": "BT14-064",
+        "f": "https://images.digimoncard.io/images/cards/BT14-064.jpg"
+      }
+    ],
     "captainhookmon": [
       {
         "s": "BT8-028",
@@ -9890,6 +9946,12 @@
       {
         "s": "ST13-14",
         "f": "https://images.digimoncard.io/images/cards/ST13-14.jpg"
+      }
+    ],
+    "brigadramon": [
+      {
+        "s": "BT14-068",
+        "f": "https://images.digimoncard.io/images/cards/BT14-068.jpg"
       }
     ],
     "breath of the gods": [
