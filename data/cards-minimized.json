@@ -1348,6 +1348,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT11-066.jpg"
       }
     ],
+    "tarnished hero": [
+      {
+        "s": "EX4-070",
+        "f": "https://images.digimoncard.io/images/cards/EX4-070.jpg"
+      }
+    ],
     "tapirmon": [
       {
         "s": "BT2-070",
@@ -1448,6 +1454,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX2-056.jpg"
       }
     ],
+    "taiki, kiriha, & nene": [
+      {
+        "s": "BT11-095",
+        "f": "https://images.digimoncard.io/images/cards/BT11-095.jpg"
+      }
+    ],
     "taiki kudo": [
       {
         "s": "BT10-087",
@@ -1456,12 +1468,6 @@
       {
         "s": "BT12-087",
         "f": "https://images.digimoncard.io/images/cards/BT12-087.jpg"
-      }
-    ],
-    "taiki & kiriha & nene": [
-      {
-        "s": "BT11-095",
-        "f": "https://images.digimoncard.io/images/cards/BT11-095.jpg"
       }
     ],
     "taiga": [
@@ -2988,12 +2994,6 @@
       {
         "s": "EX2-027",
         "f": "https://images.digimoncard.io/images/cards/EX2-027.jpg"
-      }
-    ],
-    "ranamon": [
-      {
-        "s": "BT12-024",
-        "f": "https://images.digimoncard.io/images/cards/BT12-024.jpg"
       }
     ],
     "raijinmon": [
@@ -4720,7 +4720,7 @@
         "f": "https://images.digimoncard.io/images/cards/EX3-064.jpg"
       }
     ],
-    "meggido flame": [
+    "megiddo flame": [
       {
         "s": "EX3-072",
         "f": "https://images.digimoncard.io/images/cards/EX3-072.jpg"
@@ -5458,6 +5458,12 @@
       {
         "s": "BT12-107",
         "f": "https://images.digimoncard.io/images/cards/BT12-107.jpg"
+      }
+    ],
+    "lanamon": [
+      {
+        "s": "BT12-024",
+        "f": "https://images.digimoncard.io/images/cards/BT12-024.jpg"
       }
     ],
     "lampmon": [
@@ -8782,12 +8788,6 @@
       {
         "s": "BT8-100",
         "f": "https://images.digimoncard.io/images/cards/BT8-100.jpg"
-      }
-    ],
-    "dirty hero": [
-      {
-        "s": "EX4-070",
-        "f": "https://images.digimoncard.io/images/cards/EX4-070.jpg"
       }
     ],
     "direct smasher": [
