@@ -182,12 +182,6 @@
         "f": "https://images.digimoncard.io/images/cards/BT5-004.jpg"
       }
     ],
-    "yggdrasill_7d6": [
-      {
-        "s": "BT13-007",
-        "f": "https://images.digimoncard.io/images/cards/BT13-007.jpg"
-      }
-    ],
     "yellow memory boost!": [
       {
         "s": "P-037",
@@ -2684,7 +2678,7 @@
         "f": "https://images.digimoncard.io/images/cards/BT5-100.jpg"
       }
     ],
-    "royal knights' purge": [
+    "royal knights of the purge": [
       {
         "s": "BT13-110",
         "f": "https://images.digimoncard.io/images/cards/BT13-110.jpg"
@@ -5928,6 +5922,12 @@
       {
         "s": "BT13-045",
         "f": "https://images.digimoncard.io/images/cards/BT13-045.jpg"
+      }
+    ],
+    "king drasil_7d6": [
+      {
+        "s": "BT13-007",
+        "f": "https://images.digimoncard.io/images/cards/BT13-007.jpg"
       }
     ],
     "kimeramon": [
