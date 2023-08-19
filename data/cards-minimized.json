@@ -286,6 +286,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT1-072.jpg"
       }
     ],
+    "wolf of friendship": [
+      {
+        "s": "BT15-091",
+        "f": "https://images.digimoncard.io/images/cards/BT15-091.jpg"
+      }
+    ],
     "wizardmon (x antibody)": [
       {
         "s": "BT12-078",
@@ -344,6 +350,12 @@
       {
         "s": "P-108",
         "f": "https://images.digimoncard.io/images/cards/P-108.jpg"
+      }
+    ],
+    "wings of love": [
+      {
+        "s": "BT15-088",
+        "f": "https://images.digimoncard.io/images/cards/BT15-088.jpg"
       }
     ],
     "wingdramon": [
@@ -408,6 +420,10 @@
       {
         "s": "BT1-040",
         "f": "https://images.digimoncard.io/images/cards/BT1-040.jpg"
+      },
+      {
+        "s": "BT15-026",
+        "f": "https://images.digimoncard.io/images/cards/BT15-026.jpg"
       },
       {
         "s": "BT2-078",
@@ -3918,12 +3934,6 @@
         "f": "https://images.digimoncard.io/images/cards/BT5-087.jpg"
       }
     ],
-    "omnimon x anti-body": [
-      {
-        "s": "BT5-111",
-        "f": "https://images.digimoncard.io/images/cards/BT5-111.jpg"
-      }
-    ],
     "omnimon alter-s": [
       {
         "s": "BT3-112",
@@ -3944,6 +3954,10 @@
       {
         "s": "BT10-086",
         "f": "https://images.digimoncard.io/images/cards/BT10-086.jpg"
+      },
+      {
+        "s": "BT5-111",
+        "f": "https://images.digimoncard.io/images/cards/BT5-111.jpg"
       }
     ],
     "omnimon": [
@@ -4179,6 +4193,10 @@
       }
     ],
     "myotismon": [
+      {
+        "s": "BT15-076",
+        "f": "https://images.digimoncard.io/images/cards/BT15-076.jpg"
+      },
       {
         "s": "BT2-075",
         "f": "https://images.digimoncard.io/images/cards/BT2-075.jpg"
@@ -4698,6 +4716,10 @@
       {
         "s": "BT1-044",
         "f": "https://images.digimoncard.io/images/cards/BT1-044.jpg"
+      },
+      {
+        "s": "BT15-101",
+        "f": "https://images.digimoncard.io/images/cards/BT15-101.jpg"
       },
       {
         "s": "BT2-081",
@@ -8044,6 +8066,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT13-014.jpg"
       },
       {
+        "s": "BT15-014",
+        "f": "https://images.digimoncard.io/images/cards/BT15-014.jpg"
+      },
+      {
         "s": "BT2-015",
         "f": "https://images.digimoncard.io/images/cards/BT2-015.jpg"
       },
@@ -8416,6 +8442,12 @@
       {
         "s": "BT12-069",
         "f": "https://images.digimoncard.io/images/cards/BT12-069.jpg"
+      }
+    ],
+    "fog barrier": [
+      {
+        "s": "BT15-098",
+        "f": "https://images.digimoncard.io/images/cards/BT15-098.jpg"
       }
     ],
     "flymon": [
@@ -11951,6 +11983,7 @@
     "BT6": "BT-06: Booster Double Diamond",
     "EX3": "EX-03: Theme Booster Draconic Roar",
     "ST9": "ST-9: Starter Deck Ultimate Ancient Dragon",
+    "BT15": "BT-15: Booster Exceed Apocalypse",
     "ST10": "ST-10: Starter Deck Another World Tactician",
     "ST8": "ST-8: Starter Deck UlforceVeedramon",
     "RB1": "RB-01: Reboot Booster Rising Wind",
