@@ -518,6 +518,10 @@
       {
         "s": "BT11-085",
         "f": "https://images.digimoncard.io/images/cards/BT11-085.jpg"
+      },
+      {
+        "s": "BT15-078",
+        "f": "https://images.digimoncard.io/images/cards/BT15-078.jpg"
       }
     ],
     "warumonzaemon": [
@@ -685,6 +689,10 @@
       }
     ],
     "vilemon": [
+      {
+        "s": "BT15-072",
+        "f": "https://images.digimoncard.io/images/cards/BT15-072.jpg"
+      },
       {
         "s": "BT2-072",
         "f": "https://images.digimoncard.io/images/cards/BT2-072.jpg"
@@ -2388,6 +2396,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT11-012.jpg"
       }
     ],
+    "shoutmon x2": [
+      {
+        "s": "BT15-012",
+        "f": "https://images.digimoncard.io/images/cards/BT15-012.jpg"
+      }
+    ],
     "shoutmon dx": [
       {
         "s": "BT11-018",
@@ -2570,6 +2584,12 @@
       {
         "s": "BT5-065",
         "f": "https://images.digimoncard.io/images/cards/BT5-065.jpg"
+      }
+    ],
+    "seventh lightning": [
+      {
+        "s": "BT15-100",
+        "f": "https://images.digimoncard.io/images/cards/BT15-100.jpg"
       }
     ],
     "seventh full cluster": [
@@ -3538,6 +3558,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT4-089.jpg"
       }
     ],
+    "plesiomon (x antibody)": [
+      {
+        "s": "BT15-032",
+        "f": "https://images.digimoncard.io/images/cards/BT15-032.jpg"
+      }
+    ],
     "plesiomon": [
       {
         "s": "BT14-029",
@@ -4132,6 +4158,10 @@
       {
         "s": "BT13-093",
         "f": "https://images.digimoncard.io/images/cards/BT13-093.jpg"
+      },
+      {
+        "s": "BT15-060",
+        "f": "https://images.digimoncard.io/images/cards/BT15-060.jpg"
       }
     ],
     "okuwamon (x antibody)": [
@@ -5834,6 +5864,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX5-030.jpg"
       }
     ],
+    "leviamon (x antibody)": [
+      {
+        "s": "BT15-081",
+        "f": "https://images.digimoncard.io/images/cards/BT15-081.jpg"
+      }
+    ],
     "leviamon": [
       {
         "s": "EX5-063",
@@ -5996,6 +6032,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT11-083.jpg"
       },
       {
+        "s": "BT15-077",
+        "f": "https://images.digimoncard.io/images/cards/BT15-077.jpg"
+      },
+      {
         "s": "BT3-088",
         "f": "https://images.digimoncard.io/images/cards/BT3-088.jpg"
       },
@@ -6055,6 +6095,10 @@
       }
     ],
     "kyokyomon": [
+      {
+        "s": "BT15-005",
+        "f": "https://images.digimoncard.io/images/cards/BT15-005.jpg"
+      },
       {
         "s": "BT8-005",
         "f": "https://images.digimoncard.io/images/cards/BT8-005.jpg"
@@ -7196,6 +7240,10 @@
     ],
     "hisyaryumon": [
       {
+        "s": "BT15-063",
+        "f": "https://images.digimoncard.io/images/cards/BT15-063.jpg"
+      },
+      {
         "s": "BT8-066",
         "f": "https://images.digimoncard.io/images/cards/BT8-066.jpg"
       }
@@ -7898,6 +7946,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX5-067.jpg"
       }
     ],
+    "gomamon (x antibody)": [
+      {
+        "s": "BT15-021",
+        "f": "https://images.digimoncard.io/images/cards/BT15-021.jpg"
+      }
+    ],
     "gomamon": [
       {
         "s": "BT1-030",
@@ -8044,6 +8098,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT14-008.jpg"
       },
       {
+        "s": "BT15-068",
+        "f": "https://images.digimoncard.io/images/cards/BT15-068.jpg"
+      },
+      {
         "s": "BT6-020",
         "f": "https://images.digimoncard.io/images/cards/BT6-020.jpg"
       }
@@ -8059,6 +8117,10 @@
       }
     ],
     "ginryumon": [
+      {
+        "s": "BT15-058",
+        "f": "https://images.digimoncard.io/images/cards/BT15-058.jpg"
+      },
       {
         "s": "BT8-063",
         "f": "https://images.digimoncard.io/images/cards/BT8-063.jpg"
@@ -8184,6 +8246,10 @@
       {
         "s": "BT14-022",
         "f": "https://images.digimoncard.io/images/cards/BT14-022.jpg"
+      },
+      {
+        "s": "BT15-074",
+        "f": "https://images.digimoncard.io/images/cards/BT15-074.jpg"
       },
       {
         "s": "BT5-023",
@@ -10768,6 +10834,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT3-105.jpg"
       }
     ],
+    "breakthrough of courage": [
+      {
+        "s": "ST15-15",
+        "f": "https://images.digimoncard.io/images/cards/ST15-15.jpg"
+      }
+    ],
     "breakdramon": [
       {
         "s": "BT1-026",
@@ -11730,6 +11802,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX5-014.jpg"
       }
     ],
+    "apocalymon": [
+      {
+        "s": "BT15-102",
+        "f": "https://images.digimoncard.io/images/cards/BT15-102.jpg"
+      }
+    ],
     "apemon": [
       {
         "s": "BT6-038",
@@ -12276,12 +12354,6 @@
       {
         "s": "EX4-066",
         "f": "https://images.digimoncard.io/images/cards/EX4-066.jpg"
-      }
-    ],
-    "advance of courage": [
-      {
-        "s": "ST15-15",
-        "f": "https://images.digimoncard.io/images/cards/ST15-15.jpg"
       }
     ],
     "adr-09 gatekeeper": [
