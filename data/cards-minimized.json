@@ -186,6 +186,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT11-001.jpg"
       },
       {
+        "s": "BT15-001",
+        "f": "https://images.digimoncard.io/images/cards/BT15-001.jpg"
+      },
+      {
         "s": "BT5-004",
         "f": "https://images.digimoncard.io/images/cards/BT5-004.jpg"
       }
@@ -1258,10 +1262,6 @@
       {
         "s": "BT14-003",
         "f": "https://images.digimoncard.io/images/cards/BT14-003.jpg"
-      },
-      {
-        "s": "BT15-001",
-        "f": "https://images.digimoncard.io/images/cards/BT15-001.jpg"
       },
       {
         "s": "EX5-005",
@@ -12472,12 +12472,12 @@
     "BT9": "BT-09: Booster X Record",
     "ST6": "ST-6: Starter Deck Venomous Violet",
     "BT13": "BT-13: Booster Versus Royal Knights",
+    "BT15": "BT-15: Booster Exceed Apocalypse",
     "EX2": "EX-02: Theme Booster Digital Hazard",
     "ST14": "ST-14: Advanced Deck Beelzemon",
     "BT6": "BT-06: Booster Double Diamond",
     "EX3": "EX-03: Theme Booster Draconic Roar",
     "ST9": "ST-9: Starter Deck Ultimate Ancient Dragon",
-    "BT15": "BT-15: Booster Exceed Apocalypse",
     "ST10": "ST-10: Starter Deck Another World Tactician",
     "ST8": "ST-8: Starter Deck UlforceVeedramon",
     "RB1": "RB-01: Reboot Booster Rising Wind",
