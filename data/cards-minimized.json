@@ -1802,12 +1802,6 @@
         "f": "https://images.digimoncard.io/images/cards/BT8-030.jpg"
       }
     ],
-    "supreme king fist": [
-      {
-        "s": "BT14-100",
-        "f": "https://images.digimoncard.io/images/cards/BT14-100.jpg"
-      }
-    ],
     "supreme connection!": [
       {
         "s": "BT15-096",
@@ -3420,6 +3414,12 @@
       {
         "s": "ST16-09",
         "f": "https://images.digimoncard.io/images/cards/ST16-09.jpg"
+      }
+    ],
+    "pummel whack": [
+      {
+        "s": "BT14-100",
+        "f": "https://images.digimoncard.io/images/cards/BT14-100.jpg"
       }
     ],
     "pulsemon": [
