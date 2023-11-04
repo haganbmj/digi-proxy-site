@@ -5468,6 +5468,10 @@
     ],
     "magnamon (x antibody)": [
       {
+        "s": "BT16-102",
+        "f": "https://images.digimoncard.io/images/cards/BT16-102.jpg"
+      },
+      {
         "s": "BT9-044",
         "f": "https://images.digimoncard.io/images/cards/BT9-044.jpg"
       }
@@ -5480,6 +5484,10 @@
       {
         "s": "BT8-038",
         "f": "https://images.digimoncard.io/images/cards/BT8-038.jpg"
+      },
+      {
+        "s": "ST17-13",
+        "f": "https://images.digimoncard.io/images/cards/ST17-13.jpg"
       }
     ],
     "magnakidmon": [
@@ -12542,6 +12550,7 @@
     "ST3": "1st Anniversary Adventure Pack",
     "ST5": "1st Anniversary Adventure Pack",
     "ST4": "ST-4: Starter Deck Giga Green",
-    "LM": "LM-01: Limited Pack Digimon Ghost Game"
+    "LM": "LM-01: Limited Pack Digimon Ghost Game",
+    "BT16": "BT-16: Booster Beginning Observer"
   }
 }
