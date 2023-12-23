@@ -4016,6 +4016,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT13-064.jpg"
       }
     ],
+    "pause plug-in p": [
+      {
+        "s": "P-095",
+        "f": "https://images.digimoncard.io/images/cards/P-095.jpg"
+      }
+    ],
     "patamon's confession": [
       {
         "s": "P-023",
@@ -7214,16 +7220,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT6-106.jpg"
       }
     ],
-    "invincible dragon insect combo": [
+    "invincible dragon-insect fusion": [
       {
         "s": "BT16-092",
         "f": "https://images.digimoncard.io/images/cards/BT16-092.jpg"
-      }
-    ],
-    "invalidation plug-in p": [
-      {
-        "s": "P-095",
-        "f": "https://images.digimoncard.io/images/cards/P-095.jpg"
       }
     ],
     "innocence blizzard": [
@@ -7532,12 +7532,6 @@
       {
         "s": "EX5-072",
         "f": "https://images.digimoncard.io/images/cards/EX5-072.jpg"
-      }
-    ],
-    "holy arrow": [
-      {
-        "s": "BT15-093",
-        "f": "https://images.digimoncard.io/images/cards/BT15-093.jpg"
       }
     ],
     "hokuto amanokawa": [
@@ -11122,6 +11116,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT14-036.jpg"
       }
     ],
+    "celestial arrow": [
+      {
+        "s": "BT15-093",
+        "f": "https://images.digimoncard.io/images/cards/BT15-093.jpg"
+      }
+    ],
     "caturamon": [
       {
         "s": "EX5-051",
@@ -11878,7 +11878,7 @@
         "f": "https://images.digimoncard.io/images/cards/EX3-001.jpg"
       }
     ],
-    "beast storm dance of love": [
+    "beastly storm dance of affection": [
       {
         "s": "BT16-091",
         "f": "https://images.digimoncard.io/images/cards/BT16-091.jpg"
@@ -12566,12 +12566,6 @@
         "f": "https://images.digimoncard.io/images/cards/BT7-054.jpg"
       }
     ],
-    "ancient angel of steel": [
-      {
-        "s": "BT16-097",
-        "f": "https://images.digimoncard.io/images/cards/BT16-097.jpg"
-      }
-    ],
     "analogman": [
       {
         "s": "BT11-092",
@@ -12900,6 +12894,12 @@
       {
         "s": "EX4-066",
         "f": "https://images.digimoncard.io/images/cards/EX4-066.jpg"
+      }
+    ],
+    "advent of the ancient steel angel": [
+      {
+        "s": "BT16-097",
+        "f": "https://images.digimoncard.io/images/cards/BT16-097.jpg"
       }
     ],
     "adr-09 gatekeeper": [
