@@ -28,6 +28,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT3-008.jpg"
       },
       {
+        "s": "EX6-007",
+        "f": "https://images.digimoncard.io/images/cards/EX6-007.jpg"
+      },
+      {
         "s": "P-097",
         "f": "https://images.digimoncard.io/images/cards/P-097.jpg"
       },
@@ -5876,6 +5880,12 @@
       {
         "s": "BT16-009",
         "f": "https://images.digimoncard.io/images/cards/BT16-009.jpg"
+      }
+    ],
+    "luxmon": [
+      {
+        "s": "EX6-017",
+        "f": "https://images.digimoncard.io/images/cards/EX6-017.jpg"
       }
     ],
     "lunamon": [
@@ -11918,6 +11928,12 @@
         "f": "https://images.digimoncard.io/images/cards/ST10-11.jpg"
       }
     ],
+    "barbamon": [
+      {
+        "s": "EX6-059",
+        "f": "https://images.digimoncard.io/images/cards/EX6-059.jpg"
+      }
+    ],
     "baptism by fire!": [
       {
         "s": "EX1-067",
@@ -12244,6 +12260,12 @@
       {
         "s": "P-121",
         "f": "https://images.digimoncard.io/images/cards/P-121.jpg"
+      }
+    ],
+    "arkhaiangemon": [
+      {
+        "s": "EX6-021",
+        "f": "https://images.digimoncard.io/images/cards/EX6-021.jpg"
       }
     ],
     "argomon": [
@@ -13004,6 +13026,7 @@
     "EX1": "Classic Collection EX-01",
     "ST2": "ST-2: Starter Deck Cocytus Blue",
     "BT3": "BT-03: Booster Union Impact",
+    "EX6": "EX-06: Theme Booster Infernal Ascension",
     "P": "Special Release Memorial Pack",
     "ST13": "ST-13: Starter Deck RagnaLoardmon",
     "BT7": "BT-07: Booster Next Adventure",
