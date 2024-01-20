@@ -366,6 +366,10 @@
     ],
     "witchmon": [
       {
+        "s": "EX6-048",
+        "f": "https://images.digimoncard.io/images/cards/EX6-048.jpg"
+      },
+      {
         "s": "ST10-09",
         "f": "https://images.digimoncard.io/images/cards/ST10-09.jpg"
       },
@@ -2762,6 +2766,10 @@
         "f": "https://images.digimoncard.io/images/cards/EX1-031.jpg"
       },
       {
+        "s": "EX6-028",
+        "f": "https://images.digimoncard.io/images/cards/EX6-028.jpg"
+      },
+      {
         "s": "P-054",
         "f": "https://images.digimoncard.io/images/cards/P-054.jpg"
       },
@@ -4290,6 +4298,10 @@
       {
         "s": "BT2-040",
         "f": "https://images.digimoncard.io/images/cards/BT2-040.jpg"
+      },
+      {
+        "s": "EX6-027",
+        "f": "https://images.digimoncard.io/images/cards/EX6-027.jpg"
       },
       {
         "s": "P-053",
@@ -5910,6 +5922,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT3-062.jpg"
       },
       {
+        "s": "EX6-038",
+        "f": "https://images.digimoncard.io/images/cards/EX6-038.jpg"
+      },
+      {
         "s": "ST13-09",
         "f": "https://images.digimoncard.io/images/cards/ST13-09.jpg"
       }
@@ -5918,12 +5934,20 @@
       {
         "s": "BT7-111",
         "f": "https://images.digimoncard.io/images/cards/BT7-111.jpg"
+      },
+      {
+        "s": "EX6-054",
+        "f": "https://images.digimoncard.io/images/cards/EX6-054.jpg"
       }
     ],
     "lucemon": [
       {
         "s": "BT4-115",
         "f": "https://images.digimoncard.io/images/cards/BT4-115.jpg"
+      },
+      {
+        "s": "EX6-018",
+        "f": "https://images.digimoncard.io/images/cards/EX6-018.jpg"
       }
     ],
     "loyalty deeper than the sea": [
@@ -5980,6 +6004,10 @@
       {
         "s": "EX4-034",
         "f": "https://images.digimoncard.io/images/cards/EX4-034.jpg"
+      },
+      {
+        "s": "EX6-032",
+        "f": "https://images.digimoncard.io/images/cards/EX6-032.jpg"
       },
       {
         "s": "P-084",
@@ -6110,6 +6138,10 @@
       {
         "s": "BT3-091",
         "f": "https://images.digimoncard.io/images/cards/BT3-091.jpg"
+      },
+      {
+        "s": "EX6-057",
+        "f": "https://images.digimoncard.io/images/cards/EX6-057.jpg"
       }
     ],
     "lilamon": [
@@ -6170,6 +6202,10 @@
       {
         "s": "EX5-063",
         "f": "https://images.digimoncard.io/images/cards/EX5-063.jpg"
+      },
+      {
+        "s": "EX6-061",
+        "f": "https://images.digimoncard.io/images/cards/EX6-061.jpg"
       }
     ],
     "leopardmon: leopard mode": [
@@ -7260,6 +7296,10 @@
       {
         "s": "EX1-051",
         "f": "https://images.digimoncard.io/images/cards/EX1-051.jpg"
+      },
+      {
+        "s": "EX6-041",
+        "f": "https://images.digimoncard.io/images/cards/EX6-041.jpg"
       },
       {
         "s": "P-015",
@@ -9940,6 +9980,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT10-007.jpg"
       }
     ],
+    "dominimon": [
+      {
+        "s": "EX6-030",
+        "f": "https://images.digimoncard.io/images/cards/EX6-030.jpg"
+      }
+    ],
     "dolphmon": [
       {
         "s": "BT1-033",
@@ -10150,6 +10196,10 @@
     ],
     "diaboromon": [
       {
+        "s": "BT17-059",
+        "f": "https://images.digimoncard.io/images/cards/BT17-059.jpg"
+      },
+      {
         "s": "BT2-082",
         "f": "https://images.digimoncard.io/images/cards/BT2-082.jpg"
       },
@@ -10214,6 +10264,10 @@
       {
         "s": "EX1-058",
         "f": "https://images.digimoncard.io/images/cards/EX1-058.jpg"
+      },
+      {
+        "s": "EX6-049",
+        "f": "https://images.digimoncard.io/images/cards/EX6-049.jpg"
       },
       {
         "s": "P-018",
@@ -10322,6 +10376,10 @@
       {
         "s": "EX1-056",
         "f": "https://images.digimoncard.io/images/cards/EX1-056.jpg"
+      },
+      {
+        "s": "EX6-046",
+        "f": "https://images.digimoncard.io/images/cards/EX6-046.jpg"
       },
       {
         "s": "P-017",
@@ -10664,6 +10722,10 @@
       {
         "s": "BT16-006",
         "f": "https://images.digimoncard.io/images/cards/BT16-006.jpg"
+      },
+      {
+        "s": "EX6-003",
+        "f": "https://images.digimoncard.io/images/cards/EX6-003.jpg"
       }
     ],
     "cthyllamon": [
@@ -10998,6 +11060,10 @@
       {
         "s": "EX4-059",
         "f": "https://images.digimoncard.io/images/cards/EX4-059.jpg"
+      },
+      {
+        "s": "EX6-035",
+        "f": "https://images.digimoncard.io/images/cards/EX6-035.jpg"
       },
       {
         "s": "ST17-09",
@@ -11820,6 +11886,10 @@
       {
         "s": "BT13-091",
         "f": "https://images.digimoncard.io/images/cards/BT13-091.jpg"
+      },
+      {
+        "s": "EX6-060",
+        "f": "https://images.digimoncard.io/images/cards/EX6-060.jpg"
       }
     ],
     "beetlemon": [
@@ -11918,6 +11988,10 @@
       {
         "s": "BT3-028",
         "f": "https://images.digimoncard.io/images/cards/BT3-028.jpg"
+      },
+      {
+        "s": "EX6-052",
+        "f": "https://images.digimoncard.io/images/cards/EX6-052.jpg"
       },
       {
         "s": "P-093",
@@ -12398,6 +12472,10 @@
       {
         "s": "EX5-019",
         "f": "https://images.digimoncard.io/images/cards/EX5-019.jpg"
+      },
+      {
+        "s": "EX6-034",
+        "f": "https://images.digimoncard.io/images/cards/EX6-034.jpg"
       }
     ],
     "ankylomon": [
@@ -12504,6 +12582,10 @@
       {
         "s": "EX1-028",
         "f": "https://images.digimoncard.io/images/cards/EX1-028.jpg"
+      },
+      {
+        "s": "EX6-019",
+        "f": "https://images.digimoncard.io/images/cards/EX6-019.jpg"
       },
       {
         "s": "ST3-05",
@@ -13060,6 +13142,7 @@
     "ST3": "1st Anniversary Adventure Pack",
     "ST5": "1st Anniversary Adventure Pack",
     "ST4": "ST-4: Starter Deck Giga Green",
-    "LM": "LM-01: Limited Pack Digimon Ghost Game"
+    "LM": "LM-01: Limited Pack Digimon Ghost Game",
+    "BT17": "BT-17: Booster Secret Crisis"
   }
 }
