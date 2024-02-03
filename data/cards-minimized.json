@@ -212,6 +212,10 @@
       {
         "s": "BT5-004",
         "f": "https://images.digimoncard.io/images/cards/BT5-004.jpg"
+      },
+      {
+        "s": "EX6-002",
+        "f": "https://images.digimoncard.io/images/cards/EX6-002.jpg"
       }
     ],
     "yellow scramble": [
@@ -1008,6 +1012,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT7-098.jpg"
       }
     ],
+    "ultimatechaosmon": [
+      {
+        "s": "EX6-062",
+        "f": "https://images.digimoncard.io/images/cards/EX6-062.jpg"
+      }
+    ],
     "ultimatebrachiomon": [
       {
         "s": "BT8-017",
@@ -1426,6 +1436,10 @@
       {
         "s": "BT3-064",
         "f": "https://images.digimoncard.io/images/cards/BT3-064.jpg"
+      },
+      {
+        "s": "EX6-040",
+        "f": "https://images.digimoncard.io/images/cards/EX6-040.jpg"
       },
       {
         "s": "ST13-11",
@@ -2752,6 +2766,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT8-042.jpg"
       }
     ],
+    "shakamon": [
+      {
+        "s": "EX6-031",
+        "f": "https://images.digimoncard.io/images/cards/EX6-031.jpg"
+      }
+    ],
     "shadramon": [
       {
         "s": "EX3-058",
@@ -2944,6 +2964,10 @@
       {
         "s": "BT10-038",
         "f": "https://images.digimoncard.io/images/cards/BT10-038.jpg"
+      },
+      {
+        "s": "EX6-025",
+        "f": "https://images.digimoncard.io/images/cards/EX6-025.jpg"
       }
     ],
     "sangomon": [
@@ -3060,6 +3084,10 @@
       {
         "s": "BT12-040",
         "f": "https://images.digimoncard.io/images/cards/BT12-040.jpg"
+      },
+      {
+        "s": "EX6-024",
+        "f": "https://images.digimoncard.io/images/cards/EX6-024.jpg"
       }
     ],
     "saberleomon": [
@@ -4216,6 +4244,12 @@
       {
         "s": "BT6-025",
         "f": "https://images.digimoncard.io/images/cards/BT6-025.jpg"
+      }
+    ],
+    "pandemonium lost": [
+      {
+        "s": "EX6-071",
+        "f": "https://images.digimoncard.io/images/cards/EX6-071.jpg"
       }
     ],
     "pandemonium flame": [
@@ -8564,6 +8598,10 @@
       {
         "s": "BT12-039",
         "f": "https://images.digimoncard.io/images/cards/BT12-039.jpg"
+      },
+      {
+        "s": "EX6-023",
+        "f": "https://images.digimoncard.io/images/cards/EX6-023.jpg"
       }
     ],
     "gogmamon": [
@@ -9574,6 +9612,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT13-104.jpg"
       }
     ],
+    "final excalibur": [
+      {
+        "s": "EX6-067",
+        "f": "https://images.digimoncard.io/images/cards/EX6-067.jpg"
+      }
+    ],
     "filmon": [
       {
         "s": "BT7-034",
@@ -9590,6 +9634,10 @@
       {
         "s": "BT6-076",
         "f": "https://images.digimoncard.io/images/cards/BT6-076.jpg"
+      },
+      {
+        "s": "EX6-050",
+        "f": "https://images.digimoncard.io/images/cards/EX6-050.jpg"
       }
     ],
     "fenriloogamon": [
@@ -10376,6 +10424,10 @@
       {
         "s": "EX1-065",
         "f": "https://images.digimoncard.io/images/cards/EX1-065.jpg"
+      },
+      {
+        "s": "EX6-043",
+        "f": "https://images.digimoncard.io/images/cards/EX6-043.jpg"
       },
       {
         "s": "P-016",
@@ -11178,6 +11230,10 @@
       {
         "s": "BT12-041",
         "f": "https://images.digimoncard.io/images/cards/BT12-041.jpg"
+      },
+      {
+        "s": "EX6-026",
+        "f": "https://images.digimoncard.io/images/cards/EX6-026.jpg"
       }
     ],
     "chirinmon": [
@@ -11660,6 +11716,10 @@
       {
         "s": "BT6-074",
         "f": "https://images.digimoncard.io/images/cards/BT6-074.jpg"
+      },
+      {
+        "s": "EX6-047",
+        "f": "https://images.digimoncard.io/images/cards/EX6-047.jpg"
       }
     ],
     "bombermon": [
@@ -11934,6 +11994,10 @@
       {
         "s": "EX1-002",
         "f": "https://images.digimoncard.io/images/cards/EX1-002.jpg"
+      },
+      {
+        "s": "EX6-012",
+        "f": "https://images.digimoncard.io/images/cards/EX6-012.jpg"
       },
       {
         "s": "P-002",
