@@ -2686,6 +2686,10 @@
       {
         "s": "P-133",
         "f": "https://images.digimoncard.io/images/cards/P-133.jpg"
+      },
+      {
+        "s": "ST18-14",
+        "f": "https://images.digimoncard.io/images/cards/ST18-14.jpg"
       }
     ],
     "shortmon": [
@@ -2726,6 +2730,10 @@
       {
         "s": "P-134",
         "f": "https://images.digimoncard.io/images/cards/P-134.jpg"
+      },
+      {
+        "s": "ST19-03",
+        "f": "https://images.digimoncard.io/images/cards/ST19-03.jpg"
       }
     ],
     "shivamon": [
@@ -3886,6 +3894,10 @@
       {
         "s": "P-131",
         "f": "https://images.digimoncard.io/images/cards/P-131.jpg"
+      },
+      {
+        "s": "ST18-04",
+        "f": "https://images.digimoncard.io/images/cards/ST18-04.jpg"
       }
     ],
     "psychemon": [
@@ -13050,6 +13062,10 @@
       {
         "s": "P-136",
         "f": "https://images.digimoncard.io/images/cards/P-136.jpg"
+      },
+      {
+        "s": "ST19-14",
+        "f": "https://images.digimoncard.io/images/cards/ST19-14.jpg"
       }
     ],
     "argomon": [
@@ -13919,6 +13935,8 @@
     "ST12": "ST-12: Starter Deck Jesmon",
     "ST3": "1st Anniversary Adventure Pack",
     "ST5": "1st Anniversary Adventure Pack",
-    "ST4": "ST-4: Starter Deck Giga Green"
+    "ST4": "ST-4: Starter Deck Giga Green",
+    "ST18": "ST-18: Starter Deck Guardian Vortex",
+    "ST19": "ST-19: Starter Deck Fable Waltz"
   }
 }
