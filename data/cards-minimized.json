@@ -1428,6 +1428,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT16-021.jpg"
       }
     ],
+    "tobucatmon": [
+      {
+        "s": "ST19-07",
+        "f": "https://images.digimoncard.io/images/cards/ST19-07.jpg"
+      }
+    ],
     "tobiumon": [
       {
         "s": "BT4-024",
@@ -2724,6 +2730,10 @@
       {
         "s": "P-135",
         "f": "https://images.digimoncard.io/images/cards/P-135.jpg"
+      },
+      {
+        "s": "ST19-08",
+        "f": "https://images.digimoncard.io/images/cards/ST19-08.jpg"
       }
     ],
     "shoemon": [
@@ -3458,7 +3468,7 @@
         "f": "https://images.digimoncard.io/images/cards/BT15-092.jpg"
       }
     ],
-    "return to ancestry": [
+    "return to the primogenitor": [
       {
         "s": "BT17-097",
         "f": "https://images.digimoncard.io/images/cards/BT17-097.jpg"
@@ -4356,6 +4366,10 @@
       {
         "s": "BT17-047",
         "f": "https://images.digimoncard.io/images/cards/BT17-047.jpg"
+      },
+      {
+        "s": "ST18-11",
+        "f": "https://images.digimoncard.io/images/cards/ST18-11.jpg"
       }
     ],
     "parasitemon": [
@@ -5246,7 +5260,7 @@
         "f": "https://images.digimoncard.io/images/cards/BT4-035.jpg"
       }
     ],
-    "miraculous ultimate knight": [
+    "miraculous mega knight": [
       {
         "s": "BT17-095",
         "f": "https://images.digimoncard.io/images/cards/BT17-095.jpg"
@@ -7482,6 +7496,10 @@
       {
         "s": "BT6-055",
         "f": "https://images.digimoncard.io/images/cards/BT6-055.jpg"
+      },
+      {
+        "s": "ST19-02",
+        "f": "https://images.digimoncard.io/images/cards/ST19-02.jpg"
       }
     ],
     "jumbogamemon": [
@@ -8338,7 +8356,7 @@
         "f": "https://images.digimoncard.io/images/cards/BT11-107.jpg"
       }
     ],
-    "hacker's pride": [
+    "hacker pride": [
       {
         "s": "BT17-098",
         "f": "https://images.digimoncard.io/images/cards/BT17-098.jpg"
@@ -9578,6 +9596,10 @@
       {
         "s": "P-132",
         "f": "https://images.digimoncard.io/images/cards/P-132.jpg"
+      },
+      {
+        "s": "ST18-08",
+        "f": "https://images.digimoncard.io/images/cards/ST18-08.jpg"
       }
     ],
     "galacticmon": [
@@ -9810,6 +9832,12 @@
       {
         "s": "BT6-109",
         "f": "https://images.digimoncard.io/images/cards/BT6-109.jpg"
+      }
+    ],
+    "fluffymon": [
+      {
+        "s": "ST18-01",
+        "f": "https://images.digimoncard.io/images/cards/ST18-01.jpg"
       }
     ],
     "flower cannon": [
@@ -10336,6 +10364,12 @@
       {
         "s": "BT5-108",
         "f": "https://images.digimoncard.io/images/cards/BT5-108.jpg"
+      }
+    ],
+    "eaglemon": [
+      {
+        "s": "ST18-13",
+        "f": "https://images.digimoncard.io/images/cards/ST18-13.jpg"
       }
     ],
     "dynasmon": [
@@ -13936,7 +13970,7 @@
     "ST3": "1st Anniversary Adventure Pack",
     "ST5": "1st Anniversary Adventure Pack",
     "ST4": "ST-4: Starter Deck Giga Green",
-    "ST18": "ST-18: Starter Deck Guardian Vortex",
-    "ST19": "ST-19: Starter Deck Fable Waltz"
+    "ST19": "ST-19: Starter Deck Fable Waltz",
+    "ST18": "ST-18: Starter Deck Guardian Vortex"
   }
 }
