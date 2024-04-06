@@ -5038,6 +5038,10 @@
       {
         "s": "BT15-008",
         "f": "https://images.digimoncard.io/images/cards/BT15-008.jpg"
+      },
+      {
+        "s": "ST18-05",
+        "f": "https://images.digimoncard.io/images/cards/ST18-05.jpg"
       }
     ],
     "motimon": [
@@ -6858,6 +6862,10 @@
       {
         "s": "BT6-002",
         "f": "https://images.digimoncard.io/images/cards/BT6-002.jpg"
+      },
+      {
+        "s": "ST19-01",
+        "f": "https://images.digimoncard.io/images/cards/ST19-01.jpg"
       }
     ],
     "kuzuhamon": [
@@ -7198,6 +7206,10 @@
       {
         "s": "BT5-049",
         "f": "https://images.digimoncard.io/images/cards/BT5-049.jpg"
+      },
+      {
+        "s": "ST18-06",
+        "f": "https://images.digimoncard.io/images/cards/ST18-06.jpg"
       }
     ],
     "kiriha aonuma & nene amano": [
@@ -10112,6 +10124,10 @@
       {
         "s": "EX3-060",
         "f": "https://images.digimoncard.io/images/cards/EX3-060.jpg"
+      },
+      {
+        "s": "ST19-10",
+        "f": "https://images.digimoncard.io/images/cards/ST19-10.jpg"
       }
     ],
     "exermon": [
@@ -10634,6 +10650,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT3-051.jpg"
       }
     ],
+    "doggymon": [
+      {
+        "s": "ST19-06",
+        "f": "https://images.digimoncard.io/images/cards/ST19-06.jpg"
+      }
+    ],
     "dobermon (x antibody)": [
       {
         "s": "EX5-059",
@@ -10946,6 +10968,10 @@
       {
         "s": "BT5-053",
         "f": "https://images.digimoncard.io/images/cards/BT5-053.jpg"
+      },
+      {
+        "s": "ST18-09",
+        "f": "https://images.digimoncard.io/images/cards/ST18-09.jpg"
       }
     ],
     "deputymon": [
@@ -12484,6 +12510,10 @@
       {
         "s": "ST1-02",
         "f": "https://images.digimoncard.io/images/cards/ST1-02.jpg"
+      },
+      {
+        "s": "ST18-02",
+        "f": "https://images.digimoncard.io/images/cards/ST18-02.jpg"
       },
       {
         "s": "ST7-04",
