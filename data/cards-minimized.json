@@ -76,6 +76,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT7-036.jpg"
       }
     ],
+    "zephagamon": [
+      {
+        "s": "ST18-12",
+        "f": "https://images.digimoncard.io/images/cards/ST18-12.jpg"
+      }
+    ],
     "zenjiro tsurugi": [
       {
         "s": "BT10-090",
@@ -2760,6 +2766,10 @@
       {
         "s": "RB1-019",
         "f": "https://images.digimoncard.io/images/cards/RB1-019.jpg"
+      },
+      {
+        "s": "ST19-13",
+        "f": "https://images.digimoncard.io/images/cards/ST19-13.jpg"
       }
     ],
     "shining blast": [
@@ -4306,6 +4316,14 @@
       {
         "s": "BT13-064",
         "f": "https://images.digimoncard.io/images/cards/BT13-064.jpg"
+      },
+      {
+        "s": "ST19-04",
+        "f": "https://images.digimoncard.io/images/cards/ST19-04.jpg"
+      },
+      {
+        "s": "ST19-05",
+        "f": "https://images.digimoncard.io/images/cards/ST19-05.jpg"
       }
     ],
     "pause plug-in p": [
@@ -4844,6 +4862,12 @@
       {
         "s": "BT5-092",
         "f": "https://images.digimoncard.io/images/cards/BT5-092.jpg"
+      }
+    ],
+    "noble family arts": [
+      {
+        "s": "ST19-15",
+        "f": "https://images.digimoncard.io/images/cards/ST19-15.jpg"
       }
     ],
     "ninjamon": [
@@ -7114,6 +7138,10 @@
       {
         "s": "BT14-010",
         "f": "https://images.digimoncard.io/images/cards/BT14-010.jpg"
+      },
+      {
+        "s": "ST18-07",
+        "f": "https://images.digimoncard.io/images/cards/ST18-07.jpg"
       }
     ],
     "kokabuterimon": [
@@ -8786,6 +8814,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT9-100.jpg"
       }
     ],
+    "grandgalemon": [
+      {
+        "s": "ST18-10",
+        "f": "https://images.digimoncard.io/images/cards/ST18-10.jpg"
+      }
+    ],
     "gran del sol": [
       {
         "s": "BT10-103",
@@ -10068,6 +10102,10 @@
       {
         "s": "P-081",
         "f": "https://images.digimoncard.io/images/cards/P-081.jpg"
+      },
+      {
+        "s": "ST18-03",
+        "f": "https://images.digimoncard.io/images/cards/ST18-03.jpg"
       }
     ],
     "fake agumon expert": [
@@ -11906,6 +11944,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT14-036.jpg"
       }
     ],
+    "cendrillmon": [
+      {
+        "s": "ST19-12",
+        "f": "https://images.digimoncard.io/images/cards/ST19-12.jpg"
+      }
+    ],
     "celestial arrow": [
       {
         "s": "BT15-093",
@@ -13410,6 +13454,12 @@
         "f": "https://images.digimoncard.io/images/cards/ST3-05.jpg"
       }
     ],
+    "anemoi embrace": [
+      {
+        "s": "ST18-15",
+        "f": "https://images.digimoncard.io/images/cards/ST18-15.jpg"
+      }
+    ],
     "andromon": [
       {
         "s": "BT2-061",
@@ -13970,6 +14020,7 @@
     "BT7": "BT-07: Booster Next Adventure",
     "BT8": "BT-08: Booster New Awakening",
     "EX5": "EX-05: Theme Booster Animal Colosseum",
+    "ST18": "ST-18: Starter Deck Guardian Vortex",
     "BT10": "BT-10: Booster Xros Encounter",
     "BT12": "BT-12: Booster Across Time",
     "BT11": "BT-11: Booster Dimensional Phase",
@@ -14000,7 +14051,6 @@
     "ST3": "1st Anniversary Adventure Pack",
     "ST5": "1st Anniversary Adventure Pack",
     "ST4": "ST-4: Starter Deck Giga Green",
-    "ST19": "ST-19: Starter Deck Fable Waltz",
-    "ST18": "ST-18: Starter Deck Guardian Vortex"
+    "ST19": "ST-19: Starter Deck Fable Waltz"
   }
 }
