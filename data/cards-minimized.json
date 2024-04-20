@@ -724,6 +724,10 @@
       {
         "s": "EX3-005",
         "f": "https://images.digimoncard.io/images/cards/EX3-005.jpg"
+      },
+      {
+        "s": "EX7-007",
+        "f": "https://images.digimoncard.io/images/cards/EX7-007.jpg"
       }
     ],
     "volcdramon": [
@@ -1444,6 +1448,12 @@
       {
         "s": "BT4-024",
         "f": "https://images.digimoncard.io/images/cards/BT4-024.jpg"
+      }
+    ],
+    "tlalocmon": [
+      {
+        "s": "EX7-037",
+        "f": "https://images.digimoncard.io/images/cards/EX7-037.jpg"
       }
     ],
     "titamon": [
@@ -2352,6 +2362,10 @@
       {
         "s": "EX3-016",
         "f": "https://images.digimoncard.io/images/cards/EX3-016.jpg"
+      },
+      {
+        "s": "EX7-017",
+        "f": "https://images.digimoncard.io/images/cards/EX7-017.jpg"
       }
     ],
     "snimon": [
@@ -2695,6 +2709,10 @@
       }
     ],
     "shoto kazama": [
+      {
+        "s": "EX7-064",
+        "f": "https://images.digimoncard.io/images/cards/EX7-064.jpg"
+      },
       {
         "s": "P-133",
         "f": "https://images.digimoncard.io/images/cards/P-133.jpg"
@@ -4448,6 +4466,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT8-107.jpg"
       }
     ],
+    "pandamon": [
+      {
+        "s": "ST19-09",
+        "f": "https://images.digimoncard.io/images/cards/ST19-09.jpg"
+      }
+    ],
     "palmon (x antibody)": [
       {
         "s": "BT15-045",
@@ -4582,6 +4606,10 @@
       {
         "s": "BT4-007",
         "f": "https://images.digimoncard.io/images/cards/BT4-007.jpg"
+      },
+      {
+        "s": "EX7-015",
+        "f": "https://images.digimoncard.io/images/cards/EX7-015.jpg"
       }
     ],
     "orochimon": [
@@ -5470,6 +5498,10 @@
       {
         "s": "EX3-053",
         "f": "https://images.digimoncard.io/images/cards/EX3-053.jpg"
+      },
+      {
+        "s": "EX7-049",
+        "f": "https://images.digimoncard.io/images/cards/EX7-049.jpg"
       }
     ],
     "metalkabuterimon": [
@@ -6708,6 +6740,10 @@
       {
         "s": "EX3-007",
         "f": "https://images.digimoncard.io/images/cards/EX3-007.jpg"
+      },
+      {
+        "s": "EX7-009",
+        "f": "https://images.digimoncard.io/images/cards/EX7-009.jpg"
       }
     ],
     "lavogaritamon": [
@@ -7690,6 +7726,10 @@
         "f": "https://images.digimoncard.io/images/cards/EX3-047.jpg"
       },
       {
+        "s": "EX7-039",
+        "f": "https://images.digimoncard.io/images/cards/EX7-039.jpg"
+      },
+      {
         "s": "ST5-02",
         "f": "https://images.digimoncard.io/images/cards/ST5-02.jpg"
       }
@@ -8096,6 +8136,10 @@
       {
         "s": "BT8-002",
         "f": "https://images.digimoncard.io/images/cards/BT8-002.jpg"
+      },
+      {
+        "s": "EX7-002",
+        "f": "https://images.digimoncard.io/images/cards/EX7-002.jpg"
       }
     ],
     "hisyaryumon": [
@@ -8815,6 +8859,10 @@
       }
     ],
     "grandgalemon": [
+      {
+        "s": "EX7-034",
+        "f": "https://images.digimoncard.io/images/cards/EX7-034.jpg"
+      },
       {
         "s": "ST18-10",
         "f": "https://images.digimoncard.io/images/cards/ST18-10.jpg"
@@ -11840,6 +11888,16 @@
         "f": "https://images.digimoncard.io/images/cards/BT13-002.jpg"
       }
     ],
+    "chaperomon": [
+      {
+        "s": "EX7-027",
+        "f": "https://images.digimoncard.io/images/cards/EX7-027.jpg"
+      },
+      {
+        "s": "ST19-11",
+        "f": "https://images.digimoncard.io/images/cards/ST19-11.jpg"
+      }
+    ],
     "chaosmon: valdur arm": [
       {
         "s": "BT4-091",
@@ -14047,6 +14105,7 @@
     "ST7": "Official Tournament Pack Vol. 8",
     "ST1": "Digimon Illustration Competition Promotion Pack",
     "ST15": "ST-15: Starter Deck Dragon of Courage",
+    "EX7": "EX-07: Extra Booster Digimon Liberator",
     "ST12": "ST-12: Starter Deck Jesmon",
     "ST3": "1st Anniversary Adventure Pack",
     "ST5": "1st Anniversary Adventure Pack",
