@@ -78,6 +78,10 @@
     ],
     "zephagamon": [
       {
+        "s": "EX7-036",
+        "f": "https://images.digimoncard.io/images/cards/EX7-036.jpg"
+      },
+      {
         "s": "ST18-12",
         "f": "https://images.digimoncard.io/images/cards/ST18-12.jpg"
       }
@@ -136,6 +140,12 @@
       {
         "s": "BT11-093",
         "f": "https://images.digimoncard.io/images/cards/BT11-093.jpg"
+      }
+    ],
+    "yuuki": [
+      {
+        "s": "EX7-065",
+        "f": "https://images.digimoncard.io/images/cards/EX7-065.jpg"
       }
     ],
     "yuu amano": [
@@ -256,6 +266,10 @@
       {
         "s": "EX2-006",
         "f": "https://images.digimoncard.io/images/cards/EX2-006.jpg"
+      },
+      {
+        "s": "EX7-006",
+        "f": "https://images.digimoncard.io/images/cards/EX7-006.jpg"
       },
       {
         "s": "ST14-01",
@@ -2762,6 +2776,10 @@
     ],
     "shoemon": [
       {
+        "s": "EX7-024",
+        "f": "https://images.digimoncard.io/images/cards/EX7-024.jpg"
+      },
+      {
         "s": "P-134",
         "f": "https://images.digimoncard.io/images/cards/P-134.jpg"
       },
@@ -3929,6 +3947,10 @@
       }
     ],
     "pteromon": [
+      {
+        "s": "EX7-031",
+        "f": "https://images.digimoncard.io/images/cards/EX7-031.jpg"
+      },
       {
         "s": "P-131",
         "f": "https://images.digimoncard.io/images/cards/P-131.jpg"
@@ -7868,6 +7890,10 @@
         "f": "https://images.digimoncard.io/images/cards/EX2-039.jpg"
       },
       {
+        "s": "EX7-050",
+        "f": "https://images.digimoncard.io/images/cards/EX7-050.jpg"
+      },
+      {
         "s": "P-071",
         "f": "https://images.digimoncard.io/images/cards/P-071.jpg"
       },
@@ -8912,6 +8938,10 @@
       {
         "s": "BT7-043",
         "f": "https://images.digimoncard.io/images/cards/BT7-043.jpg"
+      },
+      {
+        "s": "EX7-038",
+        "f": "https://images.digimoncard.io/images/cards/EX7-038.jpg"
       },
       {
         "s": "ST16-05",
@@ -10400,6 +10430,10 @@
       {
         "s": "BT6-053",
         "f": "https://images.digimoncard.io/images/cards/BT6-053.jpg"
+      },
+      {
+        "s": "EX7-047",
+        "f": "https://images.digimoncard.io/images/cards/EX7-047.jpg"
       }
     ],
     "ekakimon": [
@@ -11684,7 +11718,7 @@
         "f": "https://images.digimoncard.io/images/cards/BT5-026.jpg"
       }
     ],
-    "cody hida & t.k takaishi": [
+    "cody hida & t.k. takaishi": [
       {
         "s": "BT16-088",
         "f": "https://images.digimoncard.io/images/cards/BT16-088.jpg"
@@ -12003,6 +12037,10 @@
       }
     ],
     "cendrillmon": [
+      {
+        "s": "EX7-030",
+        "f": "https://images.digimoncard.io/images/cards/EX7-030.jpg"
+      },
       {
         "s": "ST19-12",
         "f": "https://images.digimoncard.io/images/cards/ST19-12.jpg"
@@ -13226,6 +13264,10 @@
     ],
     "arisa kinosaki": [
       {
+        "s": "EX7-063",
+        "f": "https://images.digimoncard.io/images/cards/EX7-063.jpg"
+      },
+      {
         "s": "P-136",
         "f": "https://images.digimoncard.io/images/cards/P-136.jpg"
       },
@@ -14078,6 +14120,7 @@
     "BT7": "BT-07: Booster Next Adventure",
     "BT8": "BT-08: Booster New Awakening",
     "EX5": "EX-05: Theme Booster Animal Colosseum",
+    "EX7": "EX-07: Extra Booster Digimon Liberator",
     "ST18": "ST-18: Starter Deck Guardian Vortex",
     "BT10": "BT-10: Booster Xros Encounter",
     "BT12": "BT-12: Booster Across Time",
@@ -14105,7 +14148,6 @@
     "ST7": "Official Tournament Pack Vol. 8",
     "ST1": "Digimon Illustration Competition Promotion Pack",
     "ST15": "ST-15: Starter Deck Dragon of Courage",
-    "EX7": "EX-07: Extra Booster Digimon Liberator",
     "ST12": "ST-12: Starter Deck Jesmon",
     "ST3": "1st Anniversary Adventure Pack",
     "ST5": "1st Anniversary Adventure Pack",
