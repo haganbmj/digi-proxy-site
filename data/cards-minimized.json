@@ -756,6 +756,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX7-007.jpg"
       }
     ],
+    "vortex resonance": [
+      {
+        "s": "EX7-074",
+        "f": "https://images.digimoncard.io/images/cards/EX7-074.jpg"
+      }
+    ],
     "volcdramon": [
       {
         "s": "BT4-015",
@@ -2148,6 +2154,12 @@
         "f": "https://images.digimoncard.io/images/cards/P-033.jpg"
       }
     ],
+    "summon frost": [
+      {
+        "s": "EX7-067",
+        "f": "https://images.digimoncard.io/images/cards/EX7-067.jpg"
+      }
+    ],
     "sukamon": [
       {
         "s": "BT11-040",
@@ -2252,6 +2264,10 @@
       {
         "s": "BT9-035",
         "f": "https://images.digimoncard.io/images/cards/BT9-035.jpg"
+      },
+      {
+        "s": "EX7-026",
+        "f": "https://images.digimoncard.io/images/cards/EX7-026.jpg"
       }
     ],
     "starlight velocity": [
@@ -2362,6 +2378,12 @@
       {
         "s": "ST2-14",
         "f": "https://images.digimoncard.io/images/cards/ST2-14.jpg"
+      }
+    ],
+    "sorcermon": [
+      {
+        "s": "EX7-019",
+        "f": "https://images.digimoncard.io/images/cards/EX7-019.jpg"
       }
     ],
     "sora takenouchi & mimi tachikawa": [
@@ -2813,6 +2835,10 @@
       }
     ],
     "shoeshoemon": [
+      {
+        "s": "EX7-025",
+        "f": "https://images.digimoncard.io/images/cards/EX7-025.jpg"
+      },
       {
         "s": "P-135",
         "f": "https://images.digimoncard.io/images/cards/P-135.jpg"
@@ -5284,6 +5310,10 @@
       {
         "s": "BT9-061",
         "f": "https://images.digimoncard.io/images/cards/BT9-061.jpg"
+      },
+      {
+        "s": "EX7-033",
+        "f": "https://images.digimoncard.io/images/cards/EX7-033.jpg"
       }
     ],
     "monmon": [
@@ -5988,6 +6018,10 @@
       {
         "s": "EX1-007",
         "f": "https://images.digimoncard.io/images/cards/EX1-007.jpg"
+      },
+      {
+        "s": "EX7-011",
+        "f": "https://images.digimoncard.io/images/cards/EX7-011.jpg"
       },
       {
         "s": "ST5-11",
@@ -7606,6 +7640,10 @@
       {
         "s": "BT7-001",
         "f": "https://images.digimoncard.io/images/cards/BT7-001.jpg"
+      },
+      {
+        "s": "EX7-005",
+        "f": "https://images.digimoncard.io/images/cards/EX7-005.jpg"
       },
       {
         "s": "ST5-01",
@@ -9338,6 +9376,10 @@
       {
         "s": "BT6-061",
         "f": "https://images.digimoncard.io/images/cards/BT6-061.jpg"
+      },
+      {
+        "s": "EX7-044",
+        "f": "https://images.digimoncard.io/images/cards/EX7-044.jpg"
       }
     ],
     "giga storm": [
@@ -9845,6 +9887,10 @@
       }
     ],
     "galemon": [
+      {
+        "s": "EX7-032",
+        "f": "https://images.digimoncard.io/images/cards/EX7-032.jpg"
+      },
       {
         "s": "P-132",
         "f": "https://images.digimoncard.io/images/cards/P-132.jpg"
@@ -12360,6 +12406,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT5-022.jpg"
       },
       {
+        "s": "EX7-016",
+        "f": "https://images.digimoncard.io/images/cards/EX7-016.jpg"
+      },
+      {
         "s": "P-067",
         "f": "https://images.digimoncard.io/images/cards/P-067.jpg"
       }
@@ -13006,6 +13056,12 @@
       {
         "s": "ST14-08",
         "f": "https://images.digimoncard.io/images/cards/ST14-08.jpg"
+      }
+    ],
+    "beelstarmon (x antibody)": [
+      {
+        "s": "EX7-073",
+        "f": "https://images.digimoncard.io/images/cards/EX7-073.jpg"
       }
     ],
     "beelstarmon": [
