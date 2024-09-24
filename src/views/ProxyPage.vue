@@ -370,7 +370,7 @@ export default {
     #print-content img {
         width: 60mm;
         height: 85mm;
-        margin: 0;
+        margin: 2mm;
         padding: 0;
     }
 
