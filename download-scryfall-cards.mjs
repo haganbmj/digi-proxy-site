@@ -37,11 +37,11 @@ const stripped = cards.map(card => {
         name: normalizeCardName(card.name),
         set: {
             name: card.set_name,
-            code: card.cardnumber.split('-')[0],
+            code: card.id.split('-')[0],
         },
-        setNumber: card.cardnumber.split('-')[1],
+        setNumber: card.id.split('-')[1],
         imageUris: {
-            front: card.image_url,
+            front: `https://images.digimoncard.io/images/cards/${card.id}.jpg`,
         }
     };
 });
