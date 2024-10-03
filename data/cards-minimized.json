@@ -830,7 +830,7 @@
         "f": "https://images.digimoncard.io/images/cards/BT13-108.jpg"
       }
     ],
-    "wadatsumi no harae": [
+    "wadatsumi purification": [
       {
         "s": "BT19-092",
         "f": "https://images.digimoncard.io/images/cards/BT19-092.jpg"
@@ -1282,6 +1282,12 @@
       {
         "s": "BT16-048",
         "f": "https://images.digimoncard.io/images/cards/BT16-048.jpg"
+      }
+    ],
+    "tyrannomon (x antibody)": [
+      {
+        "s": "P-160",
+        "f": "https://images.digimoncard.io/images/cards/P-160.jpg"
       }
     ],
     "tyrannomon": [
@@ -6600,6 +6606,10 @@
       {
         "s": "EX4-013",
         "f": "https://images.digimoncard.io/images/cards/EX4-013.jpg"
+      },
+      {
+        "s": "EX8-074",
+        "f": "https://images.digimoncard.io/images/cards/EX8-074.jpg"
       }
     ],
     "maycrackmon: vicious mode": [
@@ -13942,6 +13952,12 @@
       {
         "s": "BT13-042",
         "f": "https://images.digimoncard.io/images/cards/BT13-042.jpg"
+      }
+    ],
+    "bishop device": [
+      {
+        "s": "P-161",
+        "f": "https://images.digimoncard.io/images/cards/P-161.jpg"
       }
     ],
     "birdramon": [
