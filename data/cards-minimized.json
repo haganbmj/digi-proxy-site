@@ -8466,6 +8466,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX2-038.jpg"
       }
     ],
+    "justimon (x antibody)": [
+      {
+        "s": "EX8-054",
+        "f": "https://images.digimoncard.io/images/cards/EX8-054.jpg"
+      }
+    ],
     "justice kick": [
       {
         "s": "BT10-106",
@@ -10720,9 +10726,7 @@
       {
         "s": "BT17-018",
         "f": "https://images.digimoncard.io/images/cards/BT17-018.jpg"
-      }
-    ],
-    "gallantmon crimson mode": [
+      },
       {
         "s": "EX2-073",
         "f": "https://images.digimoncard.io/images/cards/EX2-073.jpg"
@@ -12860,6 +12864,10 @@
       {
         "s": "EX3-015",
         "f": "https://images.digimoncard.io/images/cards/EX3-015.jpg"
+      },
+      {
+        "s": "EX8-017",
+        "f": "https://images.digimoncard.io/images/cards/EX8-017.jpg"
       }
     ],
     "coronamon": [
@@ -13492,6 +13500,10 @@
       {
         "s": "BT7-002",
         "f": "https://images.digimoncard.io/images/cards/BT7-002.jpg"
+      },
+      {
+        "s": "EX8-002",
+        "f": "https://images.digimoncard.io/images/cards/EX8-002.jpg"
       }
     ],
     "budmon": [
@@ -15554,7 +15566,7 @@
     ],
     "BT12": [
       "BT-12: Booster Across Time",
-      "Legend Pack 2024"
+      "EX-07: Legend Pack 2024"
     ],
     "BT11": [
       "BT-11: Booster Dimensional Phase"
@@ -15642,6 +15654,7 @@
     ],
     "ST15": [
       "Demo Deck: ST-15",
+      "EX-08: Legend Pack 2024",
       "ST-15: Starter Deck Dragon of Courage"
     ],
     "ST12": [
