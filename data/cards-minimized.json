@@ -182,6 +182,10 @@
     ],
     "yuuki": [
       {
+        "s": "BT20-090",
+        "f": "https://images.digimoncard.io/images/cards/BT20-090.jpg"
+      },
+      {
         "s": "EX7-065",
         "f": "https://images.digimoncard.io/images/cards/EX7-065.jpg"
       }
@@ -294,6 +298,10 @@
       {
         "s": "BT19-082",
         "f": "https://images.digimoncard.io/images/cards/BT19-082.jpg"
+      },
+      {
+        "s": "P-168",
+        "f": "https://images.digimoncard.io/images/cards/P-168.jpg"
       }
     ],
     "yakiimon": [
@@ -3166,6 +3174,10 @@
         "f": "https://images.digimoncard.io/images/cards/P-135.jpg"
       },
       {
+        "s": "P-165",
+        "f": "https://images.digimoncard.io/images/cards/P-165.jpg"
+      },
+      {
         "s": "ST19-08",
         "f": "https://images.digimoncard.io/images/cards/ST19-08.jpg"
       }
@@ -3276,6 +3288,10 @@
       {
         "s": "BT7-020",
         "f": "https://images.digimoncard.io/images/cards/BT7-020.jpg"
+      },
+      {
+        "s": "P-164",
+        "f": "https://images.digimoncard.io/images/cards/P-164.jpg"
       }
     ],
     "sheepmon": [
@@ -3822,7 +3838,7 @@
         "f": "https://images.digimoncard.io/images/cards/BT5-094.jpg"
       }
     ],
-    "rosemon:  burst mode": [
+    "rosemon: burst mode": [
       {
         "s": "BT13-060",
         "f": "https://images.digimoncard.io/images/cards/BT13-060.jpg"
@@ -4205,6 +4221,10 @@
       }
     ],
     "raptordramon": [
+      {
+        "s": "BT20-051",
+        "f": "https://images.digimoncard.io/images/cards/BT20-051.jpg"
+      },
       {
         "s": "BT9-062",
         "f": "https://images.digimoncard.io/images/cards/BT9-062.jpg"
@@ -7426,6 +7446,10 @@
       {
         "s": "BT15-075",
         "f": "https://images.digimoncard.io/images/cards/BT15-075.jpg"
+      },
+      {
+        "s": "BT20-070",
+        "f": "https://images.digimoncard.io/images/cards/BT20-070.jpg"
       }
     ],
     "loogamon": [
@@ -7746,6 +7770,10 @@
       {
         "s": "EX8-048",
         "f": "https://images.digimoncard.io/images/cards/EX8-048.jpg"
+      },
+      {
+        "s": "P-167",
+        "f": "https://images.digimoncard.io/images/cards/P-167.jpg"
       }
     ],
     "lanamon": [
@@ -10380,6 +10408,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT15-058.jpg"
       },
       {
+        "s": "BT20-012",
+        "f": "https://images.digimoncard.io/images/cards/BT20-012.jpg"
+      },
+      {
         "s": "BT8-063",
         "f": "https://images.digimoncard.io/images/cards/BT8-063.jpg"
       }
@@ -10990,6 +11022,10 @@
       {
         "s": "P-132",
         "f": "https://images.digimoncard.io/images/cards/P-132.jpg"
+      },
+      {
+        "s": "P-166",
+        "f": "https://images.digimoncard.io/images/cards/P-166.jpg"
       },
       {
         "s": "ST18-08",
@@ -11627,6 +11663,10 @@
       }
     ],
     "espimon": [
+      {
+        "s": "BT20-046",
+        "f": "https://images.digimoncard.io/images/cards/BT20-046.jpg"
+      },
       {
         "s": "LM-014",
         "f": "https://images.digimoncard.io/images/cards/LM-014.jpg"
@@ -13148,6 +13188,10 @@
     ],
     "cool boy": [
       {
+        "s": "BT20-091",
+        "f": "https://images.digimoncard.io/images/cards/BT20-091.jpg"
+      },
+      {
         "s": "BT9-092",
         "f": "https://images.digimoncard.io/images/cards/BT9-092.jpg"
       }
@@ -13230,6 +13274,10 @@
       {
         "s": "EX8-067",
         "f": "https://images.digimoncard.io/images/cards/EX8-067.jpg"
+      },
+      {
+        "s": "P-169",
+        "f": "https://images.digimoncard.io/images/cards/P-169.jpg"
       }
     ],
     "clockmon": [
@@ -13740,6 +13788,10 @@
       {
         "s": "BT17-034",
         "f": "https://images.digimoncard.io/images/cards/BT17-034.jpg"
+      },
+      {
+        "s": "BT20-032",
+        "f": "https://images.digimoncard.io/images/cards/BT20-032.jpg"
       },
       {
         "s": "BT6-037",
@@ -15835,9 +15887,7 @@
     "ST13": [
       "ST-13: Starter Deck RagnaLoardmon"
     ],
-    "EX8": [
-      "EX-08: Extra Booster Chain of Liberation"
-    ],
+    "EX8": [],
     "BT18": [
       "BT-18: Booster Elemental Successor",
       "BT18-19: Special Booster Ver.2.0"
@@ -15887,6 +15937,10 @@
     ],
     "BT9": [
       "BT-09: Booster X Record"
+    ],
+    "BT20": [
+      "BT-20: Booster Over the X",
+      "BT19-20: Special Booster Ver.2.5"
     ],
     "ST6": [
       "ST-6: Starter Deck Venomous Violet"
@@ -15951,7 +16005,6 @@
     ],
     "ST15": [
       "Demo Deck: ST-15",
-      "EX-08: Legend Pack 2024",
       "ST-15: Starter Deck Dragon of Courage"
     ],
     "ST12": [
@@ -15966,10 +16019,6 @@
     "ST4": [],
     "ST19": [
       "ST-19: Starter Deck Fable Waltz"
-    ],
-    "BT20": [
-      "BT-20: Booster Over the X",
-      "BT19-20: Special Booster Ver.2.5"
     ]
   }
 }
