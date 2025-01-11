@@ -92,6 +92,10 @@
     ],
     "zephagamon": [
       {
+        "s": "BT20-101",
+        "f": "https://images.digimoncard.io/images/cards/BT20-101.jpg"
+      },
+      {
         "s": "EX7-036",
         "f": "https://images.digimoncard.io/images/cards/EX7-036.jpg"
       },
@@ -972,6 +976,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT2-031.jpg"
       },
       {
+        "s": "LM-040",
+        "f": "https://images.digimoncard.io/images/cards/LM-040.jpg"
+      },
+      {
         "s": "P-052",
         "f": "https://images.digimoncard.io/images/cards/P-052.jpg"
       }
@@ -1180,6 +1188,10 @@
       {
         "s": "BT3-017",
         "f": "https://images.digimoncard.io/images/cards/BT3-017.jpg"
+      },
+      {
+        "s": "LM-039",
+        "f": "https://images.digimoncard.io/images/cards/LM-039.jpg"
       }
     ],
     "vajramon": [
@@ -1850,6 +1862,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT16-099.jpg"
       }
     ],
+    "the apostle of doom descends!": [
+      {
+        "s": "BT20-097",
+        "f": "https://images.digimoncard.io/images/cards/BT20-097.jpg"
+      }
+    ],
     "testament": [
       {
         "s": "BT1-103",
@@ -2172,6 +2190,12 @@
       {
         "s": "BT9-084",
         "f": "https://images.digimoncard.io/images/cards/BT9-084.jpg"
+      }
+    ],
+    "tai kamiya & izzy izumi": [
+      {
+        "s": "ST20-13",
+        "f": "https://images.digimoncard.io/images/cards/ST20-13.jpg"
       }
     ],
     "tai kamiya (v-tamer)": [
@@ -2692,6 +2716,12 @@
       {
         "s": "BT6-091",
         "f": "https://images.digimoncard.io/images/cards/BT6-091.jpg"
+      }
+    ],
+    "sora takenouchi & kari kamiya": [
+      {
+        "s": "ST20-12",
+        "f": "https://images.digimoncard.io/images/cards/ST20-12.jpg"
       }
     ],
     "sora takenouchi & joe kido": [
@@ -3548,6 +3578,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX3-049.jpg"
       }
     ],
+    "seadramon (x antibody)": [
+      {
+        "s": "BT20-024",
+        "f": "https://images.digimoncard.io/images/cards/BT20-024.jpg"
+      }
+    ],
     "seadramon": [
       {
         "s": "BT15-025",
@@ -4174,6 +4210,10 @@
       {
         "s": "BT4-034",
         "f": "https://images.digimoncard.io/images/cards/BT4-034.jpg"
+      },
+      {
+        "s": "LM-041",
+        "f": "https://images.digimoncard.io/images/cards/LM-041.jpg"
       }
     ],
     "redvegiemon": [
@@ -4250,6 +4290,10 @@
       {
         "s": "BT4-047",
         "f": "https://images.digimoncard.io/images/cards/BT4-047.jpg"
+      },
+      {
+        "s": "LM-042",
+        "f": "https://images.digimoncard.io/images/cards/LM-042.jpg"
       }
     ],
     "rasenmon fury mode": [
@@ -5350,6 +5394,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT15-067.jpg"
       },
       {
+        "s": "BT20-018",
+        "f": "https://images.digimoncard.io/images/cards/BT20-018.jpg"
+      },
+      {
         "s": "BT8-069",
         "f": "https://images.digimoncard.io/images/cards/BT8-069.jpg"
       }
@@ -5522,6 +5570,10 @@
       {
         "s": "BT15-060",
         "f": "https://images.digimoncard.io/images/cards/BT15-060.jpg"
+      },
+      {
+        "s": "BT20-083",
+        "f": "https://images.digimoncard.io/images/cards/BT20-083.jpg"
       }
     ],
     "okuwamon (x antibody)": [
@@ -6706,6 +6758,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX3-072.jpg"
       }
     ],
+    "megaseadramon (x antibody)": [
+      {
+        "s": "BT20-026",
+        "f": "https://images.digimoncard.io/images/cards/BT20-026.jpg"
+      }
+    ],
     "megaseadramon": [
       {
         "s": "BT15-029",
@@ -6858,6 +6916,12 @@
       {
         "s": "EX4-061",
         "f": "https://images.digimoncard.io/images/cards/EX4-061.jpg"
+      }
+    ],
+    "matt ishida & t.k. takaishi": [
+      {
+        "s": "ST21-13",
+        "f": "https://images.digimoncard.io/images/cards/ST21-13.jpg"
       }
     ],
     "matt ishida & sora takenouchi": [
@@ -8822,6 +8886,12 @@
         "f": "https://images.digimoncard.io/images/cards/BT5-078.jpg"
       }
     ],
+    "joe kido & mimi tachikawa": [
+      {
+        "s": "ST21-12",
+        "f": "https://images.digimoncard.io/images/cards/ST21-12.jpg"
+      }
+    ],
     "joe kido": [
       {
         "s": "BT14-083",
@@ -8900,6 +8970,10 @@
       {
         "s": "BT13-017",
         "f": "https://images.digimoncard.io/images/cards/BT13-017.jpg"
+      },
+      {
+        "s": "BT20-017",
+        "f": "https://images.digimoncard.io/images/cards/BT20-017.jpg"
       },
       {
         "s": "BT6-016",
@@ -10678,6 +10752,10 @@
       {
         "s": "BT14-080",
         "f": "https://images.digimoncard.io/images/cards/BT14-080.jpg"
+      },
+      {
+        "s": "LM-044",
+        "f": "https://images.digimoncard.io/images/cards/LM-044.jpg"
       }
     ],
     "ghostmon": [
@@ -10884,6 +10962,12 @@
         "f": "https://images.digimoncard.io/images/cards/EX6-006.jpg"
       }
     ],
+    "gatchmon": [
+      {
+        "s": "BT21-009",
+        "f": "https://images.digimoncard.io/images/cards/BT21-009.jpg"
+      }
+    ],
     "garurumon (x antibody)": [
       {
         "s": "BT9-024",
@@ -11082,6 +11166,10 @@
       {
         "s": "BT13-019",
         "f": "https://images.digimoncard.io/images/cards/BT13-019.jpg"
+      },
+      {
+        "s": "BT20-057",
+        "f": "https://images.digimoncard.io/images/cards/BT20-057.jpg"
       },
       {
         "s": "BT6-067",
@@ -12902,6 +12990,10 @@
     ],
     "deathxmon": [
       {
+        "s": "BT20-082",
+        "f": "https://images.digimoncard.io/images/cards/BT20-082.jpg"
+      },
+      {
         "s": "BT9-112",
         "f": "https://images.digimoncard.io/images/cards/BT9-112.jpg"
       }
@@ -13086,6 +13178,10 @@
       {
         "s": "EX3-054",
         "f": "https://images.digimoncard.io/images/cards/EX3-054.jpg"
+      },
+      {
+        "s": "LM-043",
+        "f": "https://images.digimoncard.io/images/cards/LM-043.jpg"
       }
     ],
     "dark wings delusion": [
@@ -13482,6 +13578,12 @@
       {
         "s": "BT3-102",
         "f": "https://images.digimoncard.io/images/cards/BT3-102.jpg"
+      }
+    ],
+    "code cracker fang & hacker judge": [
+      {
+        "s": "BT20-089",
+        "f": "https://images.digimoncard.io/images/cards/BT20-089.jpg"
       }
     ],
     "code cracker fang": [
@@ -15678,6 +15780,10 @@
     ],
     "alphamon: ouryuken": [
       {
+        "s": "BT20-060",
+        "f": "https://images.digimoncard.io/images/cards/BT20-060.jpg"
+      },
+      {
         "s": "BT9-111",
         "f": "https://images.digimoncard.io/images/cards/BT9-111.jpg"
       }
@@ -15686,6 +15792,10 @@
       {
         "s": "BT13-075",
         "f": "https://images.digimoncard.io/images/cards/BT13-075.jpg"
+      },
+      {
+        "s": "BT20-056",
+        "f": "https://images.digimoncard.io/images/cards/BT20-056.jpg"
       },
       {
         "s": "BT6-111",
@@ -16182,6 +16292,10 @@
     "EX5": [
       "EX-05: Theme Booster Animal Colosseum"
     ],
+    "BT20": [
+      "BT-20: Booster Over the X",
+      "BT19-20: Special Booster Ver.2.5"
+    ],
     "EX7": [
       "EX-07: Extra Booster Digimon Liberator"
     ],
@@ -16217,10 +16331,6 @@
     ],
     "BT9": [
       "BT-09: Booster X Record"
-    ],
-    "BT20": [
-      "BT-20: Booster Over the X",
-      "BT19-20: Special Booster Ver.2.5"
     ],
     "ST6": [
       "ST-6: Starter Deck Venomous Violet"
@@ -16299,6 +16409,15 @@
     "ST4": [],
     "ST19": [
       "ST-19: Starter Deck Fable Waltz"
+    ],
+    "ST20": [
+      "ST-20: Starter Deck Protector of Light"
+    ],
+    "ST21": [
+      "ST-21: Starter Deck Hero of Hope"
+    ],
+    "BT21": [
+      "BT-21: Booster World Convergence"
     ]
   }
 }
