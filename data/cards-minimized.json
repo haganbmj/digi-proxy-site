@@ -1108,6 +1108,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT20-009.jpg"
       },
       {
+        "s": "BT21-032",
+        "f": "https://images.digimoncard.io/images/cards/BT21-032.jpg"
+      },
+      {
         "s": "BT3-021",
         "f": "https://images.digimoncard.io/images/cards/BT3-021.jpg"
       },
@@ -2118,6 +2122,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT17-079.jpg"
       },
       {
+        "s": "BT21-082",
+        "f": "https://images.digimoncard.io/images/cards/BT21-082.jpg"
+      },
+      {
         "s": "BT7-085",
         "f": "https://images.digimoncard.io/images/cards/BT7-085.jpg"
       }
@@ -2142,6 +2150,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT19-080.jpg"
       },
       {
+        "s": "BT21-089",
+        "f": "https://images.digimoncard.io/images/cards/BT21-089.jpg"
+      },
+      {
         "s": "EX2-056",
         "f": "https://images.digimoncard.io/images/cards/EX2-056.jpg"
       }
@@ -2164,6 +2176,10 @@
       {
         "s": "BT19-079",
         "f": "https://images.digimoncard.io/images/cards/BT19-079.jpg"
+      },
+      {
+        "s": "BT21-083",
+        "f": "https://images.digimoncard.io/images/cards/BT21-083.jpg"
       }
     ],
     "taiga": [
@@ -2260,6 +2276,10 @@
       {
         "s": "BT12-096",
         "f": "https://images.digimoncard.io/images/cards/BT12-096.jpg"
+      },
+      {
+        "s": "BT21-088",
+        "f": "https://images.digimoncard.io/images/cards/BT21-088.jpg"
       }
     ],
     "tactimon": [
@@ -4040,6 +4060,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT2-038.jpg"
       },
       {
+        "s": "BT21-044",
+        "f": "https://images.digimoncard.io/images/cards/BT21-044.jpg"
+      },
+      {
         "s": "BT4-017",
         "f": "https://images.digimoncard.io/images/cards/BT4-017.jpg"
       },
@@ -5530,6 +5554,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT19-012.jpg"
       },
       {
+        "s": "BT21-021",
+        "f": "https://images.digimoncard.io/images/cards/BT21-021.jpg"
+      },
+      {
         "s": "BT5-014",
         "f": "https://images.digimoncard.io/images/cards/BT5-014.jpg"
       }
@@ -6538,6 +6566,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT2-063.jpg"
       },
       {
+        "s": "BT21-061",
+        "f": "https://images.digimoncard.io/images/cards/BT21-061.jpg"
+      },
+      {
         "s": "BT3-015",
         "f": "https://images.digimoncard.io/images/cards/BT3-015.jpg"
       },
@@ -7108,6 +7140,10 @@
       {
         "s": "BT17-087",
         "f": "https://images.digimoncard.io/images/cards/BT17-087.jpg"
+      },
+      {
+        "s": "BT21-086",
+        "f": "https://images.digimoncard.io/images/cards/BT21-086.jpg"
       },
       {
         "s": "BT4-092",
@@ -8342,6 +8378,10 @@
       {
         "s": "BT14-001",
         "f": "https://images.digimoncard.io/images/cards/BT14-001.jpg"
+      },
+      {
+        "s": "BT21-004",
+        "f": "https://images.digimoncard.io/images/cards/BT21-004.jpg"
       },
       {
         "s": "BT4-003",
@@ -9966,6 +10006,10 @@
     ],
     "gurimon": [
       {
+        "s": "BT21-002",
+        "f": "https://images.digimoncard.io/images/cards/BT21-002.jpg"
+      },
+      {
         "s": "BT8-001",
         "f": "https://images.digimoncard.io/images/cards/BT8-001.jpg"
       },
@@ -10136,6 +10180,10 @@
       {
         "s": "BT2-013",
         "f": "https://images.digimoncard.io/images/cards/BT2-013.jpg"
+      },
+      {
+        "s": "BT21-068",
+        "f": "https://images.digimoncard.io/images/cards/BT21-068.jpg"
       },
       {
         "s": "BT4-039",
@@ -11012,6 +11060,10 @@
         "f": "https://images.digimoncard.io/images/cards/ST10-04.jpg"
       },
       {
+        "s": "ST20-05",
+        "f": "https://images.digimoncard.io/images/cards/ST20-05.jpg"
+      },
+      {
         "s": "ST3-06",
         "f": "https://images.digimoncard.io/images/cards/ST3-06.jpg"
       }
@@ -11454,6 +11506,10 @@
         "f": "https://images.digimoncard.io/images/cards/ST2-03.jpg"
       },
       {
+        "s": "ST21-10",
+        "f": "https://images.digimoncard.io/images/cards/ST21-10.jpg"
+      },
+      {
         "s": "ST6-03",
         "f": "https://images.digimoncard.io/images/cards/ST6-03.jpg"
       },
@@ -11674,6 +11730,10 @@
       {
         "s": "BT17-009",
         "f": "https://images.digimoncard.io/images/cards/BT17-009.jpg"
+      },
+      {
+        "s": "BT21-012",
+        "f": "https://images.digimoncard.io/images/cards/BT21-012.jpg"
       },
       {
         "s": "BT4-009",
@@ -13152,6 +13212,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT12-090.jpg"
       },
       {
+        "s": "BT21-085",
+        "f": "https://images.digimoncard.io/images/cards/BT21-085.jpg"
+      },
+      {
         "s": "BT3-093",
         "f": "https://images.digimoncard.io/images/cards/BT3-093.jpg"
       },
@@ -14048,6 +14112,10 @@
       {
         "s": "BT10-011",
         "f": "https://images.digimoncard.io/images/cards/BT10-011.jpg"
+      },
+      {
+        "s": "BT21-022",
+        "f": "https://images.digimoncard.io/images/cards/BT21-022.jpg"
       },
       {
         "s": "RB1-009",
@@ -15342,6 +15410,10 @@
       {
         "s": "BT12-083",
         "f": "https://images.digimoncard.io/images/cards/BT12-083.jpg"
+      },
+      {
+        "s": "BT21-072",
+        "f": "https://images.digimoncard.io/images/cards/BT21-072.jpg"
       }
     ],
     "arresterdramon": [
@@ -15928,6 +16000,10 @@
         "f": "https://images.digimoncard.io/images/cards/BT17-014.jpg"
       },
       {
+        "s": "BT21-020",
+        "f": "https://images.digimoncard.io/images/cards/BT21-020.jpg"
+      },
+      {
         "s": "BT4-016",
         "f": "https://images.digimoncard.io/images/cards/BT4-016.jpg"
       },
@@ -16176,6 +16252,10 @@
       {
         "s": "ST15-02",
         "f": "https://images.digimoncard.io/images/cards/ST15-02.jpg"
+      },
+      {
+        "s": "ST20-10",
+        "f": "https://images.digimoncard.io/images/cards/ST20-10.jpg"
       },
       {
         "s": "ST5-03",
@@ -16503,6 +16583,9 @@
     "ST12": [
       "ST-12: Starter Deck Jesmon"
     ],
+    "BT21": [
+      "BT-21: Booster World Convergence"
+    ],
     "ST3": [
       "ST-3: Starter Deck Heaven's Yellow"
     ],
@@ -16515,9 +16598,6 @@
     ],
     "ST20": [
       "ST-20: Starter Deck Protector of Light"
-    ],
-    "BT21": [
-      "BT-21: Booster World Convergence"
     ],
     "ST21": [
       "ST-21: Starter Deck Hero of Hope"
