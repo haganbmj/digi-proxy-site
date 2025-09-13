@@ -1,4 +1,4 @@
-name: github pages
+name: Deploy Github Pages
 
 on:
   push:
@@ -16,12 +16,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Setup Node
-        uses: actions/setup-node@v3.5.0
+        uses: actions/setup-node@v5.0.0
         with:
-          node-version: "15.x"
+          node-version: "24.x"
 
       - name: Cache dependencies
         uses: actions/cache@v4.2.4
@@ -30,18 +30,37 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - run: echo "VUE_APP_BUILD_SHA=$GITHUB_SHA" >> $GITHUB_ENV
+      - name: Restore Cached Card List
+        uses: actions/cache/restore@v4.2.4
+        if: ${{ github.event_name != 'schedule' && github.event_name != 'workflow_dispatch' }}
+        with:
+          path: data/default-cards.json
+          key: default-cards.json-${{ github.run_id }}
+          restore-keys: |
+            default-cards.json-
+
+      - run: echo "VITE_BUILD_SHA=$GITHUB_SHA" >> $GITHUB_ENV
       - run: npm ci
-      - run: npm run build
+      - run: npm run cards
+      - run: VITE_BUILD_SHA=$GITHUB_SHA npm run build
+      - run: npm run lint
+      - run: npm run test
 
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./dist
 
+      - name: Save Cached Card List
+        uses: actions/cache/save@v4.2.4
+        if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+        with:
+          path: data/default-cards.json
+          key: default-cards.json-${{ github.run_id }}
+
   deploy:
-    runs-on: ubuntu-latest
     needs: build
+    runs-on: ubuntu-latest
     permissions:
       pages: write
       id-token: write

@@ -1,136 +1,327 @@
 <template>
-    <div class="section">
-        <HelpModal ref="helpModal" />
+  <div class="section">
+    <HelpModal ref="helpModal" />
 
-        <div class="columns">
-            <div class="column col-3 col-sm-12">
-                <div id="config" class="form-group p-sticky">
-                    <div class="form-group">
-                        <textarea id="deck-input" class="form-input" v-model="config.decklist" autofocus
-                            placeholder="1 Tai Kamiya BT1-085&#10;1 Gigimon BT2-001&#10;4 Gigimon EX2-001&#10;2 Guilmon BT2-009&#10;Growlmon&#10;2 A Delicate Plan BT3-097&#10;2x Gallantmon Crimson Mode"></textarea>
-                    </div>
+    <div class="columns">
+      <div class="column col-3 col-sm-12 mb-2" style="z-index: 300">
+        <div id="config" class="form-group p-sticky">
+          <div class="form-group">
+            <textarea
+              id="deck-input"
+              class="form-input"
+              title="Deck Input"
+              v-model="config.decklist"
+              autofocus
+              placeholder="1 Tai Kamiya BT1-085&#10;1 Gigimon BT2-001&#10;4 Gigimon EX2-001&#10;2 Guilmon BT2-009&#10;Growlmon&#10;2 A Delicate Plan BT3-097&#10;2x Gallantmon Crimson Mode"
+            />
+          </div>
 
-                    <div class="form-group btn-group btn-group-block">
-                        <button id="submit-decklist" class="btn btn-primary" @click="loadCardList()">{{ cards.length ? 'Update' : 'Submit' }}</button>
-                        <button id="print" class="btn btn-block" @click="printList" :disabled="cards.length == 0"><span class="icon-print"></span> Print</button>
-                    </div>
+          <div class="form-group btn-group btn-group-block">
+            <button
+              id="submit-decklist"
+              class="btn btn-primary"
+              @click="loadCardList()"
+            >
+              {{ cards.length ? $t('buttons.update') : $t('buttons.submit') }}
+            </button>
+            <button
+              id="print"
+              class="btn btn-block tooltip"
+              @click="printList"
+              :disabled="cards.length == 0"
+              :data-tooltip="$t('consumedSlots', { count: cardCountWhenPrinting.count, bound: cardCountWhenPrinting.bound})"
+            >
+              <span class="icon-print" /> {{ $t('buttons.print') }}
+            </button>
+          </div>
 
-                    <div class="spacer" style="height:0.4rem;"></div>
-                    <div class="divider text-center" data-content="CONFIGURATION"></div>
+          <div class="form-group btn-group btn-group-block">
+            <div id="slot-usage" class="bar">
+              <template v-for="index in 9" :key="index">
+                <div
+                  :class="`bar-item ${index <= cardCountWhenPrinting.overflow ? 'consumed' : 'unconsumed'}`"
+                  role="progressbar"
+                />
+              </template>
+            </div>
+          </div>
 
-                    <div class="columns">
-                        <!-- <div class="column col-12">
-                            <label class="form-switch">
-                                <input type="checkbox" v-model="config.includeDigital">
-                                <i class="form-icon"></i> Show Digital Printings
-                            </label>
-                        </div>
+          <div class="spacer" style="height: 0.4rem" />
+          <div
+            class="divider text-center"
+            :data-content="$t('configuration.label').toUpperCase()"
+          />
 
-                        <div class="column col-12">
-                            <label class="form-switch">
-                                <input type="checkbox" v-model="config.includePromo">
-                                <i class="form-icon"></i> Show Promo Printings
-                            </label>
-                        </div>
+          <div class="columns">
+            <!-- <div class="column col-12">
+              <label class="form-switch">
+                <input
+                  type="checkbox"
+                  name="include-digital"
+                  v-model="config.includeDigital"
+                >
+                <i class="form-icon" /> {{ $t('configuration.showDigitalPrintings') }}
+              </label>
+            </div> -->
 
-                        <div class="column col-12">
-                            <label class="form-switch">
-                                <input type="checkbox" v-model="config.includeBasics">
-                                <i class="form-icon"></i> Include Basic Lands
-                            </label>
-                        </div> -->
+            <!-- <div class="column col-12">
+              <label class="form-switch">
+                <input
+                  type="checkbox"
+                  name="include-promo"
+                  v-model="config.includePromo"
+                >
+                <i class="form-icon" /> {{ $t('configuration.showPromoPrintings') }}
+              </label>
+            </div> -->
 
-                        <!-- <div class="column col-12 divider"></div> -->
-
-                        <div class="column col-12">
-                            <label class="form-label">
-                                <i class="form-icon"></i> Print Scale
-                                <select class="form-select select" v-model="config.scale" style="width:100%;">
-                                    <option value="small">Wimpy (98%)</option>
-                                    <option value="normal">Regular (100%)</option>
-                                    <option value="large">Jacked (102%)</option>
-                                </select>
-                            </label>
-                        </div>
-
-                        <!-- <div class="column col-12">
-                            <label class="form-switch">
-                                <input type="checkbox" v-model="config.dfcBacks">
-                                <i class="form-icon"></i> Print DFC Backs
-                            </label>
-                        </div> -->
-
-                        <div class="column col-12 divider"></div>
-
-                        <div class="column col-12">
-                            <button class="btn p-centered" @click="$refs.helpModal.show()">Help?</button>
-                        </div>
-
-                        <div class="column col-12 divider"></div>
-                    </div>
-                </div>
+            <div class="column col-12">
+              <label class="form-switch">
+                <input
+                  type="checkbox"
+                  name="match-editions"
+                  v-model="config.matchEditions"
+                >
+                <i class="form-icon" /> {{ $t('configuration.matchInputEditions') }}
+              </label>
             </div>
 
-            <div class="column col-9 col-sm-12">
-                <div class="empty" v-show="cards.length === 0 && errors.length === 0">
-                    <div class="empty-icon">
-                        <i class="icon icon-3x icon-search"></i>
-                    </div>
-                    <p class="empty-title h5" style="max-width: 25rem;">"I welcome and seek your ideas, but do not bring me small ideas; bring me big ideas to match our future."</p>
-                    <p class="empty-subtitle">- Arnold Schwarzenegger</p>
-                </div>
+            <!-- <div class="column col-12">
+              <label class="form-switch">
+                <input
+                  type="checkbox"
+                  name="include-basics"
+                  v-model="config.includeBasics"
+                >
+                <i class="form-icon" /> {{ $t('configuration.includeBasicLands') }}
+              </label>
+            </div> -->
 
-                <div id="input-errors" class="toast toast-error" v-show="errors.length > 0">
-                    <button class="btn btn-clear float-right" @click="errors = []"></button>
-                    <div>Some cards could not be identified.</div>
-                    <ul>
-                        <li v-for="(error, index) in errors" :key="index">{{ error }}</li>
-                    </ul>
-                </div>
-
-                <div class="cards columns">
-                    <div v-for="(card, index) in cards" :key="index" class="card-select column col-3 col-sm-6 mt-2" v-show="shouldShowCard(card)">
-                        <div class="p-relative">
-                            <ImageLoader class="card-image img-responsive" :src="card.selectedOption.url" placeholder="./card_back.jpg" :alt="card.name" />
-                            <span class="card-quantity bg-primary text-light docs-shape s-rounded centered">{{ card.quantity }}x</span>
-                            <select class="form-select select-sm mt-2" v-model="card.selectedOption" @change="updateSessionSet(card.name, card.selectedOption)">
-                                <option v-for="(set, index) in card.setOptions" :value="set" :key="index" v-show="shouldShowSetOption(card, set)">{{ set.name }}</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-
-                <ArnoldsApproval id="arnold" :cards="cards" />
+            <div class="column col-12">
+              <label class="form-switch">
+                <input
+                  type="checkbox"
+                  name="show-cut-lines"
+                  v-model="config.showCutLines"
+                >
+                <i class="form-icon" /> {{ $t('configuration.showCutLines') }}
+              </label>
             </div>
+          </div>
+          <div class="column col-12 divider" />
+          <div class="columns">
+            <!-- <div class="column col-12">
+              <label class="form-label">
+                <span
+                  class="tooltip tooltip-right"
+                  :data-tooltip="$t('configuration.imageType.tooltip')"
+                ><i class="form-icon" /> {{ $t('configuration.imageType.label') }}
+                  <span class="icon-info" /></span>
+                <select
+                  class="form-select select"
+                  name="image-type"
+                  v-model="config.imageType"
+                  style="width: 100%"
+                >
+                  <option value="normal">{{ $t('configuration.imageType.normal') }}</option>
+                  <option value="border_crop">{{ $t('configuration.imageType.borderCrop') }}</option>
+                </select>
+              </label>
+            </div> -->
+
+            <div class="column col-12">
+              <label class="form-label">
+                <span
+                  class="tooltip tooltip-right"
+                  :data-tooltip="$t('configuration.printScale.tooltip')"
+                ><i class="form-icon" /> {{ $t('configuration.printScale.label') }}
+                  <span class="icon-info" /></span>
+                <select
+                  class="form-select select"
+                  name="scale"
+                  v-model="config.scale"
+                  style="width: 100%"
+                >
+                  <option value="small">{{ $t('configuration.printScale.small') }} (-2%)</option>
+                  <option value="normal">{{ $t('configuration.printScale.regular') }} (60mm x 85mm)</option>
+                  <option value="large">{{ $t('configuration.printScale.large') }} (+2%)</option>
+                  <option value="actual">{{ $t('configuration.printScale.actual') }} (63mm x 88mm)</option>
+                </select>
+              </label>
+            </div>
+
+            <!-- <div class="column col-12">
+              <label class="form-label">
+                <i class="form-icon" /> {{ $t('configuration.cardBacks.label') }}
+                <select
+                  class="form-select select"
+                  name="card-backs"
+                  v-model="config.cardBacks"
+                  style="width: 100%"
+                >
+                  <option value="none">{{ $t('configuration.cardBacks.none') }}</option>
+                  <option value="dfc">{{ $t('configuration.cardBacks.dfcs') }}</option>
+                  <option value="all">{{ $t('configuration.cardBacks.all') }}</option>
+                </select>
+              </label>
+            </div> -->
+          </div>
+          <div class="column col-12 divider" />
+          <div class="columns">
+            <div class="column col-12">
+              <button
+                class="btn p-centered"
+                @click="$refs.helpModal.show()"
+              >
+                {{ $t('configuration.help.label') }}
+              </button>
+            </div>
+          </div>
+          <div class="column col-12 divider" />
         </div>
-    </div>
+      </div>
 
-    <div id="print-content" :class="'scale-' + config.scale">
-        <template v-for="(card, index) in cards" :key="index">
-            <img v-for="n in card.quantity" :key="n" :src="card.selectedOption.url" v-show="shouldShowCard(card)">
-            <img v-for="n in card.quantity" :key="n" :src="card.selectedOption.urlBack" v-show="shouldShowCard(card, 'back')">
-        </template>
+      <div class="column col-9 col-sm-12">
+        <div
+          class="empty"
+          v-show="cards.length === 0 && errors.length === 0"
+        >
+          <div class="empty-icon">
+            <i class="icon icon-3x icon-search" />
+          </div>
+          <p class="empty-title h5" style="max-width: 25rem">
+            "I welcome and seek your ideas, but do not bring me
+            small ideas; bring me big ideas to match our future."
+          </p>
+          <p class="empty-subtitle">
+            - Arnold Schwarzenegger
+          </p>
+        </div>
+
+        <div
+          id="input-errors"
+          class="toast toast-error"
+          v-show="errors.length > 0"
+        >
+          <button
+            class="btn btn-clear float-right"
+            alt="Dismiss Errors"
+            @click="errors = []"
+          />
+          <div>{{ $t('errors.unableToIdentifyCards') }}</div>
+          <ul>
+            <li v-for="(error, index) in errors" :key="index">
+              {{ error }}
+            </li>
+          </ul>
+        </div>
+
+        <div class="cards columns">
+          <div
+            v-for="(card, cardIndex) in cards"
+            :key="cardIndex"
+            class="card-select column col-3 col-sm-6 mt-2"
+            v-show="shouldShowCard(card)"
+          >
+            <div class="p-relative">
+              <ImageLoader
+                class="card-image img-responsive"
+                :src="resolveCardImage(card)"
+                placeholder="./card_back_normal.jpg"
+                :alt="card.name"
+              />
+              <span
+                class="card-quantity bg-primary text-light docs-shape s-rounded centered"
+              >{{ card.quantity }}x</span>
+              <select
+                class="form-select select-sm mt-2"
+                name="selected-option"
+                v-model="card.selectedOption"
+                @change="
+                  updateSessionSet(
+                    card.name,
+                    card.selectedOption,
+                    cardIndex,
+                  )
+                "
+              >
+                <option
+                  v-for="(set, setIndex) in card.setOptions"
+                  :value="set"
+                  :key="setIndex"
+                  v-show="shouldShowSetOption(card, set)"
+                >
+                  {{ set.name }}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <ArnoldsApproval id="arnold" :cards="cards" />
+      </div>
     </div>
+  </div>
+
+  <div
+    id="print-content"
+    :class="[
+      `scale-${config.scale}`,
+      { 'with-cut-lines': config.showCutLines },
+    ]"
+  >
+    <template v-for="(card, index) in cards" :key="index">
+      <template v-for="n in card.quantity" :key="n">
+        <img
+          :src="resolveCardImage(card)"
+          v-show="shouldShowCard(card)"
+        >
+        <img
+          :src="resolveCardImage(card, 'back')"
+          v-show="shouldShowCard(card, 'back')"
+        >
+      </template>
+    </template>
+  </div>
 </template>
 
 <script>
-import { normalizeCardName } from '../helpers/CardNames.mjs';
-import ImageLoader from '../components/ImageLoader.vue';
-import HelpModal from '../components/HelpModal.vue';
-import ArnoldsApproval from '../components/ArnoldsApproval';
+import { parseDecklist } from "../helpers/DecklistParser.mjs";
+import { bindStorage } from "../helpers/VueLocalStorage.mjs";
+import ImageLoader from "../components/ImageLoader.vue";
+import HelpModal from "../components/HelpModal.vue";
+import ArnoldsApproval from "../components/ArnoldsApproval.vue";
 
 // Chunk out the card list for quasi-lazy loading. Or at least loading that doesn't block the page rendering.
-const ScryfallDatasetAsync = () => import('../../data/cards-minimized.json');
+const ScryfallDatasetAsync = () => import("../../data/cards-minimized.json");
 
 const basicLands = [
-    'wastes',
-    'forest', 'island', 'plains', 'swamp', 'mountain',
-    'snow-covered forest', 'snow-covered island',
-    'snow-covered plains', 'snow-covered swamp',
-    'snow-covered mountain'];
+    "wastes",
+    "forest",
+    "island",
+    "plains",
+    "swamp",
+    "mountain",
+    "snow-covered wastes",
+    "snow-covered forest",
+    "snow-covered island",
+    "snow-covered plains",
+    "snow-covered swamp",
+    "snow-covered mountain",
+];
+
+function setImageVersion(url, version) {
+    if (/scryfall/.test(url)) {
+        var url = new URL(url);
+        url.searchParams.set("version", version);
+        return url.href;
+    } else {
+        return url;
+    }
+}
 
 export default {
-    name: 'ProxyPage',
+    name: "ProxyPage",
     components: {
         ImageLoader,
         HelpModal,
@@ -141,24 +332,62 @@ export default {
             config: {
                 includeDigital: false,
                 includePromo: false,
+                matchEditions: true,
                 includeBasics: false,
-                dfcBacks: true,
-                scale: 'normal',
-                decklist: '',
+                showCutLines: false,
+                imageType: "border_crop",
+                scale: "normal",
+                cardBacks: "dfc",
+                decklist: "",
             },
             sets: {},
             cards: [],
             errors: [],
             sessionSetSelections: {},
-        }
+        };
+    },
+    computed: {
+        cardCountWhenPrinting() {
+            const count = this.cards.reduce((total, c) => {
+                return (
+                    total +
+                    c.quantity *
+                        ((this.shouldShowCard(c, "front") ? 1 : 0) +
+                            (this.shouldShowCard(c, "back") ? 1 : 0))
+                );
+            }, 0);
+
+            const overflow = count % 9;
+            const bound = overflow == 0 ? count : count + (9 - (count % 9));
+
+            return {
+                count,
+                overflow,
+                bound,
+                percentage: Math.round((overflow / 9) * 100),
+            };
+        },
     },
     mounted() {
         // Trigger an immediate load of the card list + set names.
         this.loadSetList();
+        this.initConfig();
     },
     methods: {
         async loadSetList() {
-            this.sets = (await ScryfallDatasetAsync()).sets;
+            const dataset = (await ScryfallDatasetAsync());
+            this.sets = dataset.sets;
+            console.log(`Loaded ${Object.keys(dataset.cards).length} distinct cards from ${Object.keys(dataset.sets).length} sets.`)
+        },
+        initConfig() {
+            this.config.includeDigital = bindStorage('includeDigital', (v) => v === "true");
+            this.config.includePromo = bindStorage('includePromo', (v) => v === "true");
+            this.config.matchEditions = bindStorage('matchEditions', (v) => v === "true");
+            this.config.includeBasics = bindStorage('includeBasics', (v) => v === "true");
+            this.config.showCutLines = bindStorage('showCutLines', (v) => v === "true");
+            this.config.imageType = bindStorage('imageType', (v) => v ?? "border_crop");
+            this.config.scale = bindStorage('scale', (v) => v ?? "normal");
+            this.config.cardBacks = bindStorage('cardBacks', (v) => v ?? "dfc");
         },
         shouldShowSetOption(card, option) {
             // FIXME: Need a better filter method to detect promo-only garbage.
@@ -167,21 +396,52 @@ export default {
                 return true;
             }
 
-            return (this.config.includeDigital || !option.isDigital) && (this.config.includePromo || !option.isPromo);
+            return (
+                (this.config.includeDigital || !option.isDigital) &&
+                (this.config.includePromo || !option.isPromo)
+            );
         },
-        shouldShowCard(card, face = 'front') {
+        shouldShowCard(card, face = "front") {
             if (!this.config.includeBasics && card.isBasic) {
                 return false;
             }
 
-            if (face === 'back' && (card.selectedOption.urlBack === undefined || !this.config.dfcBacks)) {
-                return false;
+            if (face === "back") {
+                if (this.config.cardBacks === "all") {
+                    return true;
+                }
+
+                if (
+                    this.config.cardBacks === "none" ||
+                    card.selectedOption.urlBack === undefined
+                ) {
+                    return false;
+                }
             }
 
             return true;
         },
-        updateSessionSet(cardName, setOption) {
-            this.sessionSetSelections[cardName] = setOption;
+        resolveCardImage(card, face = "front") {
+            if (face == "front") {
+                return setImageVersion(
+                    card.selectedOption.urlFront,
+                    this.config.imageType,
+                );
+            } else {
+                if (card.selectedOption.urlBack !== undefined) {
+                    return setImageVersion(
+                        card.selectedOption.urlBack,
+                        this.config.imageType,
+                    );
+                } else {
+                    return `./card_back_normal.jpg`;
+                }
+            }
+        },
+        updateSessionSet(cardName, setOption, cardIndex) {
+            const deckIndex = this.cards.filter((v, i) => { return v.name === cardName && i <= cardIndex; }).length - 1;
+            this.sessionSetSelections[cardName] = this.sessionSetSelections[cardName] ?? {};
+            this.sessionSetSelections[cardName][deckIndex] = setOption;
         },
         printList() {
             window.print();
@@ -189,96 +449,74 @@ export default {
         async loadCardList() {
             this.cards = [];
             this.errors = [];
-            for (let line of this.config.decklist.split('\n')) {
-                line = line.trim();
 
-                // Different sites have different sideboard formats.
-                // Look for the word "sideboard" or lines that start with a double slash and skip them.
-                if (/Sideboard/i.test(line) || /^\/\//.test(line) || line === '') {
-                    continue;
-                }
+            const { lines, errors } = parseDecklist(this.config.decklist);
+            this.errors = errors;
 
-                // Extract the quantity and card name.
-                // Cockatrice prefixes lines with "SB:" for sideboard cards, so optionally matching that.
-                // MTGA's export format puts the set and collector number in the line. ex. Arid Mesa (ZEN) 211
-                // let extract = /^(?:SB:\s)?(?:(\d+)?x?\s)?([^(]+)(?:\s\(.+\) .+)?$/i.exec(line);
-                let extract = /^(?:(\d+)?x?\s)?(.+)/i.exec(line);
-                if (extract === null) {
-                    this.errors.push(line);
-                    console.warn(`Failed to parse line: ${line}`);
-                    continue;
-                }
+            const _cards = [];
 
-                let [, quantity, inputCardName] = extract;
-
-                let extractSet = /(.+)\s+(\w+-\d+)$/.exec(inputCardName);
-
-                let inputCardName2, inputCardSet;
-
-                if (extractSet !== null) {
-                    [, inputCardName2, inputCardSet] = extractSet;
-                } else {
-                    inputCardName2 = inputCardName;
-                }
-
-                inputCardName2 = inputCardName2.trim();
-
-                // console.log(`${quantity}\n\t${inputCardName}\n\t${inputCardName2}\n\t${inputCardSet}`);
-
-                if (quantity === undefined) {
-                    quantity = 1;
-                }
-
-                // parseInt should be safe here since it's a digit extraction,
-                // decimal numbers will just get roped into the cardName and fail.
-                if (parseInt(quantity) <= 0) {
-                    continue;
-                }
-
-                const cardName = normalizeCardName(inputCardName2);
-
-                const cardLookup = (await ScryfallDatasetAsync()).cards[cardName];
+            for (let line of lines) {
+                let cardLookup = (await ScryfallDatasetAsync()).cards[line.name];
 
                 if (!cardLookup) {
-                    this.errors.push(line);
-                    console.warn(`Failed to identify card on line: ${line}`);
+                    this.errors.push(line.name);
+                    console.warn(
+                        `Failed to identify card on line: ${JSON.stringify(line)}`,
+                    );
                     continue;
                 }
 
+                const cardIndex = _cards.filter((v) => { return v.name === line.name }).length;
+
                 const options = {
-                    quantity: parseInt(quantity),
-                    name: cardName,
-                    inputName: inputCardName,
-                    setOptions: cardLookup.map(option => {
-                        let [ setCode, setNumber ] = option.s.split('-');
+                    quantity: line.quantity,
+                    name: line.name,
+                    setOptions: cardLookup.map((option) => {
+                        // This could use spread syntax, but it's nice to have all the property names in this file explicitly.
                         return {
-                            name: `${setCode}-${setNumber}`,
-                            // name: `${this.sets[setCode]} (${setCode}-${setNumber})`,
-                            url: option.f,
-                            urlBack: option.b,
-                            isDigital: option.d === 1,
-                            isPromo: option.p === 1,
+                            name: `${this.sets[option.setCode]} (${option.collectorNumber})`,
+                            setCode: option.setCode,
+                            collectorNumber: option.collectorNumber,
+                            urlFront: option.urlFront,
+                            urlBack: option.urlBack,
+                            isDigital: option.isDigital,
+                            isPromo: option.isPromo,
+                            isToken: option.isToken,
                         };
                     }),
-                    isBasic: basicLands.includes(cardName.toLowerCase()),
-                    selectedUrl: '',
-                    selectedOption: this.sessionSetSelections[cardName],
+                    isBasic: basicLands.includes(line.name.toLowerCase()),
+                    selectedOption: this.sessionSetSelections[line.name]?.[cardIndex],
                 };
 
-                options.selectedOption = options.setOptions.filter(option => {
-                    return option.name == inputCardSet;
-                })?.[0] ?? options.setOptions[0];
+                if (!options.selectedOption) {
+                    // Set a default selection.
+                    // First, if enabled, attempt to find an exact match from the decklist.
+                    if (this.config.matchEditions) {
+                        options.selectedOption = options.setOptions.filter(option => {
+                            return option.setCode === line.set && option.collectorNumber == line.collectorsNumber
+                        })?.[0] ?? undefined;
+                    }
 
-                this.cards.push(options);
+                    // If we failed there, then we can set a default based on characteristics.
+                    if (!options.selectedOption) {
+                        options.selectedOption = options.setOptions.filter(option => {
+                            return !option.isDigital && !option.isPromo && !option.isToken;
+                        })?.[0] ?? options.setOptions[0];
+                    }
+                }
+
+                _cards.push(options);
             }
+
+            this.cards = _cards;
         },
     },
-}
+};
 </script>
 
-<style>
+<style lang="scss">
 #deck-input {
-    height: 20rem;
+    height: 14rem;
 }
 
 @media (max-width: 600px) {
@@ -291,6 +529,35 @@ export default {
     top: 0.6rem;
 }
 
+#slot-usage {
+    border-collapse: collapse;
+    height: 0.3rem;
+
+    .bar-item {
+        border: 1px solid #bcc3ce;
+        border-collapse: collapse;
+        width: 11.1%;
+
+        &.consumed {
+            background: #5755d9;
+        }
+
+        &.unconsumed {
+            background: #eef0f3;
+        }
+    }
+}
+
+html.dark-theme {
+    #slot-usage .bar-item {
+        border: 1px solid #707274;
+
+        &.unconsumed {
+            background: #303742;
+        }
+    }
+}
+
 .card-quantity {
     font-size: 1.2rem;
     font-weight: 100;
@@ -300,11 +567,6 @@ export default {
     left: 0.6rem;
     padding: 0.2rem;
     line-height: 1rem;
-}
-
-.card-image {
-    /* border-radius: 4.75% / 3.5%; */
-    border-radius: 0.3rem;
 }
 
 #arnold {
@@ -335,13 +597,15 @@ export default {
         all: initial;
     }
 
-    html, html * {
+    html,
+    html * {
         all: unset;
         font-size: 0 !important;
         line-height: 0 !important;
     }
 
-    .section, header {
+    .section,
+    header {
         display: none !important;
     }
 
@@ -370,8 +634,12 @@ export default {
     #print-content img {
         width: 60mm;
         height: 85mm;
-        margin: 2mm;
+        margin: 0;
         padding: 0;
+    }
+
+    #print-content.with-cut-lines img {
+        margin: 0 1px 1px 0;
     }
 
     #print-content.scale-large img {
@@ -382,6 +650,11 @@ export default {
     #print-content.scale-small img {
         width: calc(60mm * 0.98);
         height: calc(85mm * 0.98);
+    }
+
+    #print-content.scale-actual img {
+        width: 63mm;
+        height: 88mm;
     }
 
     img {
