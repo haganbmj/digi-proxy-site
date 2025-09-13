@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "cards": "node download-scryfall-cards.mjs"
+    "cards": "node download-scryfall-cards.mjs",
+    "cards:update": "node download-scryfall-cards.mjs --update"
   },
   "dependencies": {
     "spectre.css": "^0.5.9",

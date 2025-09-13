@@ -3,7 +3,7 @@ import axios from 'axios';
 import { strict as assert } from 'assert';
 import { normalizeCardName } from './src/helpers/CardNames.mjs';
 
-if (!fs.existsSync('./data/default-cards.json')) {
+if (!fs.existsSync('./data/default-cards.json') || process.argv[2] == "--update") {
     console.log('Downloading fresh card data.');
 
     const dataResp = await axios({
