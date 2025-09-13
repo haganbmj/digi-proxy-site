@@ -8,11 +8,11 @@ describe("parseDecklist()", () => {
             expect(
                 parseDecklist(
                     `
-                    Ghor-Clan Rampager
+                    Agumon
                     `,
                 ),
             ).toStrictEqual({
-                lines: [{ name: "ghor-clan rampager", quantity: 1 }],
+                lines: [{ name: "agumon", quantity: 1 }],
                 errors: [],
             });
         });
@@ -21,11 +21,11 @@ describe("parseDecklist()", () => {
             expect(
                 parseDecklist(
                     `
-                    3 Ghor-Clan Rampager
+                    3 Agumon
                     `,
                 ),
             ).toStrictEqual({
-                lines: [{ name: "ghor-clan rampager", quantity: 3 }],
+                lines: [{ name: "agumon", quantity: 3 }],
                 errors: [],
             });
         });
@@ -34,11 +34,11 @@ describe("parseDecklist()", () => {
             expect(
                 parseDecklist(
                     `
-                    4x Ghor-Clan Rampager
+                    4x Agumon
                     `,
                 ),
             ).toStrictEqual({
-                lines: [{ name: "ghor-clan rampager", quantity: 4 }],
+                lines: [{ name: "agumon", quantity: 4 }],
                 errors: [],
             });
         });
@@ -47,11 +47,11 @@ describe("parseDecklist()", () => {
             expect(
                 parseDecklist(
                     `
-                    43 Ghor-Clan Rampager
+                    43 Agumon
                     `,
                 ),
             ).toStrictEqual({
-                lines: [{ name: "ghor-clan rampager", quantity: 43 }],
+                lines: [{ name: "agumon", quantity: 43 }],
                 errors: [],
             });
         });
@@ -60,7 +60,7 @@ describe("parseDecklist()", () => {
             expect(
                 parseDecklist(
                     `
-                    0 Ghor-Clan Rampager
+                    0 Agumon
                     `,
                 ),
             ).toStrictEqual({
@@ -116,7 +116,7 @@ describe("parseDecklist()", () => {
                     Deck:
                     1x Abandon Hope
                     The Deck of Many Things
-                    Deck Deck Go (ABC) 123
+                    Deck Deck Go ABC-123
                     `,
                 ),
             ).toStrictEqual({
@@ -129,26 +129,6 @@ describe("parseDecklist()", () => {
                         quantity: 1,
                         set: "abc",
                     },
-                ],
-                errors: [],
-            });
-        });
-
-        test("Sideboard Section Header", () => {
-            expect(
-                parseDecklist(
-                    `
-                    sideboard
-                    Sideboard
-                    Sideboard:
-                    3x Abandon Hope
-                    SB:   2x Price of Progress
-                    `,
-                ),
-            ).toStrictEqual({
-                lines: [
-                    { name: "abandon hope", quantity: 3 },
-                    { name: "price of progress", quantity: 2 },
                 ],
                 errors: [],
             });
@@ -180,156 +160,45 @@ describe("parseDecklist()", () => {
     });
 
     describe("Deck Formats", () => {
-        // FIXME: Moxfield exports with MTAG with an "About" header, don't know if it's worth supporting that or not.
-        test("MTGA/Moxfield Format", () => {
+        test("DimonCard.io Format", () => {
             expect(
                 parseDecklist(
                     `
-                    Deck
-                    4 Abandon Hope (TMP) 107
-                    2 Hazmat Suit (USED)
-                    Erase (Not the Urza‛s Legacy One) (UNH) 10
-                    2x Vadmir, New Blood (POTJ) 113p
+                    // Digimon Deck List
+                    4 Aegisdramon EX8-029
+                    3 Blue Memory Boost! P-036
+                    4 Crabmon
 
-                    SIDEBOARD:
-                    // Scryfall excludes the Set in some cases?
-                    2 Brotherhood's End () 128
-                    2 Final Revels (LRW) 113
+                    // Egg Deck
+                    4 Bukamon BT7-002
                     `,
                 ),
             ).toStrictEqual({
                 lines: [
                     {
-                        name: "abandon hope",
+                        name: "aegisdramon",
                         quantity: 4,
-                        set: "tmp",
-                        collectorsNumber: "107",
-                    },
-                    { name: "hazmat suit (used)", quantity: 2 },
-                    {
-                        name: `erase (not the urza's legacy one)`,
-                        quantity: 1,
-                        set: "unh",
-                        collectorsNumber: "10",
+                        set: "ex8",
+                        collectorsNumber: "029",
                     },
                     {
-                        name: "vadmir, new blood",
-                        quantity: 2,
-                        set: "potj",
-                        collectorsNumber: "113p",
+                        name: "blue memory boost!",
+                        quantity: 3,
+                        set: "p",
+                        collectorsNumber: "036"
                     },
                     {
-                        name: `brotherhood's end`,
-                        quantity: 2,
-                        collectorsNumber: "128",
+                        name: `crabmon`,
+                        quantity: 4,
                     },
                     {
-                        name: "final revels",
-                        quantity: 2,
-                        set: "lrw",
-                        collectorsNumber: "113",
+                        name: "bukamon",
+                        quantity: 4,
+                        set: "bt7",
+                        collectorsNumber: "002",
                     },
                 ],
                 errors: [],
-            });
-        });
-
-        test("Scryfall Clipboard Format", () => {
-            expect(
-                parseDecklist(
-                    `
-                    5 Mountain
-                    4 City of Traitors
-
-                    // Sideboard
-                    2 Brotherhood's End
-                    `,
-                ),
-            ).toStrictEqual({
-                lines: [
-                    { name: "mountain", quantity: 5 },
-                    { name: "city of traitors", quantity: 4 },
-                    { name: `brotherhood's end`, quantity: 2 },
-                ],
-                errors: [],
-            });
-        });
-
-        test("Basic Format", () => {
-            expect(
-                parseDecklist(
-                    `
-                    4 Abandon Hope
-                    2 Hazmat Suit (USED)
-                    1 Erase (Not the Urza‛s Legacy One)
-                    1 Dark Ritual (STA) 26
-
-                    Sideboard
-                    2 Vadmir, New Blood
-                    `,
-                ),
-            ).toStrictEqual({
-                lines: [
-                    { name: "abandon hope", quantity: 4 },
-                    { name: "hazmat suit (used)", quantity: 2 },
-                    { name: `erase (not the urza's legacy one)`, quantity: 1 },
-                    {
-                        name: "dark ritual",
-                        quantity: 1,
-                        set: "sta",
-                        collectorsNumber: "26",
-                    },
-                    { name: "vadmir, new blood", quantity: 2 },
-                ],
-                errors: [],
-            });
-        });
-
-        test("edge cases with ★ and - and //", () => {
-            expect(
-                parseDecklist(
-                    `
-                        1 Filigree Familiar (plst) GNT-52
-                        1 Geth's Grimoire (plst) DST-123
-                        1 Grim Discovery (plst) DDR-51
-                        1 Hostile Hostel // Creeping Inn (prm) 94088
-                        1 Solemn Simulacrum (sld) 791★
-                    `,
-                ),
-            ).toStrictEqual({
-                errors: [],
-                lines: [
-                    {
-                        collectorsNumber: "GNT-52",
-                        name: "filigree familiar",
-                        quantity: 1,
-                        set: "plst",
-                    },
-                    {
-                        collectorsNumber: "DST-123",
-                        name: "geth's grimoire",
-                        quantity: 1,
-                        set: "plst",
-                    },
-                    {
-                        collectorsNumber: "DDR-51",
-                        name: "grim discovery",
-                        quantity: 1,
-                        set: "plst",
-                    },
-                    {
-                        collectorsNumber: "94088",
-                        name: "hostile hostel // creeping inn",
-                        quantity: 1,
-                        set: "prm",
-                    },
-                    {
-                        collectorsNumber: "791★",
-                        name: "solemn simulacrum",
-                        quantity: 1,
-                        set: "sld",
-                    },
-                ],
             });
         });
     });

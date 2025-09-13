@@ -42,7 +42,7 @@ const stripped = cards.map(card => {
         setNumber: card.id.split('-')[1],
         imageUris: {
             front: `https://images.digimoncard.io/images/cards/${card.id}.jpg`,
-        }
+        },
     };
 });
 
