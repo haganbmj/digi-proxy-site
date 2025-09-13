@@ -185,7 +185,7 @@ describe("parseDecklist()", () => {
                         name: "blue memory boost!",
                         quantity: 3,
                         set: "p",
-                        collectorsNumber: "036"
+                        collectorsNumber: "036",
                     },
                     {
                         name: `crabmon`,
