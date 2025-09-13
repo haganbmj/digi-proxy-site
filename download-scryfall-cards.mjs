@@ -53,16 +53,25 @@ const minimized = stripped.reduce((store, card) => {
     // Need to look into gzip more, it might be possible to leave full urls if they get properly compressed out.
     const name = card.name.toLowerCase();
     store.cards[name] = store.cards[name] || [];
+    // store.cards[name].push({
+    //     s: `${card.set.code}-${card.setNumber}`,
+
+    //     // Scryfall puts a timestamp query param on these, which we don't need as it'll trigger a full regeneration each week.
+    //     // GZip seems to be doing a good job of optimizing out all the duplicate cdn url prefixes, so I guess it's okay to not over optimize.
+    //     f: card.imageUris.front?.replace(/\?.*/, ''),
+    //     b: card.imageUris.back?.replace(/\?.*/, ''),
+    // });
+
     store.cards[name].push({
-        s: `${card.set.code}-${card.setNumber}`,
+        setCode: card.set.code.toLowerCase(),
+        collectorNumber: card.setNumber,
+        name: card.name,
+        urlFront: card.imageUris.front?.replace(/\?.*/, ''),
+        urlBack: card.imageUris.back?.replace(/\?.*/, ''),
+    })
 
-        // Scryfall puts a timestamp query param on these, which we don't need as it'll trigger a full regeneration each week.
-        // GZip seems to be doing a good job of optimizing out all the duplicate cdn url prefixes, so I guess it's okay to not over optimize.
-        f: card.imageUris.front?.replace(/\?.*/, ''),
-        b: card.imageUris.back?.replace(/\?.*/, ''),
-    });
-
-    store.sets[card.set.code] = card.set.name;
+    // store.sets[card.set.code] = card.set.name;
+    store.sets[card.set.code.toLowerCase()] = card.set.code;
 
     return store;
 }, { cards: {}, sets: {} });
