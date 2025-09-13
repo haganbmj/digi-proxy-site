@@ -12,7 +12,7 @@
       <LocalePicker class="ml-1" />
       <span class="px-2 hide-sm" />
       <a href="https://twitter.com/haganbmj" target="_blank" class="btn ml-1 hide-sm">Twitter</a>
-      <a href="https://github.com/haganbmj/mtg-proxy-site" target="_blank" class="btn btn-primary ml-1 hide-sm">GitHub</a>
+      <a href="https://github.com/haganbmj/digi-proxy-site" target="_blank" class="btn btn-primary ml-1 hide-sm">GitHub</a>
     </section>
   </header>
   <div id="content" class="container">
